@@ -793,33 +793,7 @@ function shareStory() {
 // Play themed emoji animation at end of story
 function playStoryAnimation(topic) {
     const container = document.getElementById('storyAnimation');
-    container.innerHTML = '';
-
-    const emojiMap = {
-        'Superhéroes':          ['⚡','🦸','✨','💥','⭐'],
-        'Aventura Fantástica':  ['✨','🌟','🧝','🗺️','💫'],
-        'Misterio':             ['🔍','💡','🕵️','⭐','🌟'],
-        'Explorador Espacial':  ['🚀','⭐','🪐','✨','🌌'],
-        'Animales y Naturaleza':['🦋','🌿','🌸','🐦','🍃'],
-        'Escuela Mágica':       ['✨','🪄','⭐','💫','🌟'],
-        'Aventura Pirata':      ['⚓','🌊','🏴‍☠️','💎','⭐'],
-        'Viajero del Tiempo':   ['⏰','✨','🌀','⭐','💫'],
-        'Mundo de Videojuegos': ['⭐','🎮','💥','🏆','✨'],
-        'Explorador Submarino': ['🐠','🫧','🌊','🐙','⭐']
-    };
-
-    const emojis = emojiMap[topic] || ['⭐','✨','🌟','💫','⚡'];
-
-    for (let i = 0; i < 15; i++) {
-        const el = document.createElement('span');
-        el.className = 'anim-particle';
-        el.textContent = emojis[i % emojis.length];
-        el.style.cssText = `
-            left: ${5 + Math.random() * 90}%;
-            font-size: ${18 + Math.random() * 16}px;
-            --delay: ${i * 0.12}s;
-            --duration: ${1.5 + Math.random() * 0.6}s;
-        `;
-        container.appendChild(el);
-    }
+    container.innerHTML = (typeof topicAnimations !== 'undefined' && topicAnimations[topic])
+        ? topicAnimations[topic]
+        : '';
 }

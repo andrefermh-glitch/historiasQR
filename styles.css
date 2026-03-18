@@ -396,27 +396,16 @@ body {
 
 /* End screen story animation */
 .story-animation {
-    position: relative;
-    height: 100px;
-    overflow: hidden;
     margin: 0 0 16px 0;
     pointer-events: none;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
-.anim-particle {
-    position: absolute;
-    bottom: -10px;
-    line-height: 1;
-    animation: particleRise var(--duration, 1.8s) ease-out var(--delay, 0s) forwards;
-    opacity: 0;
-}
-
-@keyframes particleRise {
-    0%   { transform: translateY(0)     rotate(0deg)   scale(0.5); opacity: 0; }
-    15%  { opacity: 1; }
-    50%  { transform: translateY(-50px) rotate(12deg)  scale(1.1); }
-    85%  { opacity: 0.9; }
-    100% { transform: translateY(-110px) rotate(-8deg) scale(0.8); opacity: 0; }
+.story-animation svg {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 /* Animación de escritura para el texto de la historia */
