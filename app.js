@@ -775,7 +775,7 @@ function resetToWelcome() {
 function shareStory() {
     const scoreText = currentState.score >= 4 ? '¡puntuación épica!' :
                       currentState.score >= 2 ? 'buena puntuación' : 'resultado interesante';
-    const shareText = `¡Acabo de completar una aventura de "${currentState.selectedStory.topic}" en Historias Interactivas con ${scoreText} (${currentState.score}/5 decisiones acertadas). ¿Te animas a vivir la tuya? 📖✨`;
+    const shareText = `¡Acabo de completar una aventura de "${currentState.selectedStory.topic}" en Aventuras Interactivas con ${scoreText} (${currentState.score}/5 decisiones acertadas). ¿Te animas a vivir la tuya? 📖✨`;
 
     if (navigator.share) {
         navigator.share({
