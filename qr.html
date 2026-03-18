@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR - Historias Interactivas</title>
+    <title>QR - Aventuras Interactivas</title>
     <style>
         body {
             font-family: sans-serif;
@@ -16,24 +16,56 @@
             background: #f0f4f8;
             text-align: center;
         }
-        h1 { color: #333; margin-bottom: 8px; }
-        p { color: #666; margin-bottom: 24px; }
+        .logo { margin-bottom: 8px; }
+        p { color: #666; margin-bottom: 24px; font-size: 16px; }
         .qr-box { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
         .qr-box img { display: block; width: 280px; height: 280px; }
-        .url { margin-top: 20px; font-size: 14px; color: #888; word-break: break-all; max-width: 320px; }
     </style>
 </head>
 <body>
-    <h1>📖 Aventuras Interactivas</h1>
+    <div class="logo">
+        <svg viewBox="0 0 420 118" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aventuras Interactivas" style="max-width:380px;width:90vw;display:block;margin:0 auto;">
+            <defs>
+                <linearGradient id="gMain" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#6366f1"/>
+                    <stop offset="55%" stop-color="#8b5cf6"/>
+                    <stop offset="100%" stop-color="#ec4899"/>
+                </linearGradient>
+                <linearGradient id="gBook" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#8b5cf6"/>
+                    <stop offset="100%" stop-color="#ec4899"/>
+                </linearGradient>
+            </defs>
+            <path d="M14,22 C14,19 16,17 19,17 L55,21 L55,91 L19,87 C16,87 14,85 14,82 Z" fill="url(#gBook)" opacity="0.88"/>
+            <path d="M59,21 L95,17 C98,17 100,19 100,22 L100,82 C100,85 98,87 95,87 L59,91 Z" fill="url(#gMain)" opacity="0.88"/>
+            <rect x="54" y="17" width="6" height="74" rx="3" fill="#4338ca"/>
+            <line x1="21" y1="35" x2="51" y2="37" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+            <line x1="21" y1="47" x2="51" y2="49" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+            <line x1="21" y1="59" x2="51" y2="61" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+            <line x1="21" y1="71" x2="51" y2="73" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+            <line x1="63" y1="37" x2="93" y2="35" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.65"/>
+            <line x1="63" y1="49" x2="93" y2="47" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+            <line x1="63" y1="61" x2="93" y2="59" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+            <line x1="63" y1="73" x2="93" y2="71" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+            <polygon points="57,5 59.5,11 66,11 61,15 63,21 57,17 51,21 53,15 48,11 54.5,11" fill="#fbbf24"/>
+            <polygon points="57,7 58.8,12 64,12 59.8,15.2 61.4,20 57,17.2 52.6,20 54.2,15.2 50,12 55.2,12" fill="#fde68a"/>
+            <circle cx="108" cy="24" r="3" fill="#ec4899" opacity="0.55"/>
+            <circle cx="12" cy="60" r="2.5" fill="#8b5cf6" opacity="0.45"/>
+            <circle cx="111" cy="78" r="2" fill="#6366f1" opacity="0.4"/>
+            <circle cx="108" cy="51" r="1.5" fill="#fbbf24" opacity="0.6"/>
+            <text x="124" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="38" font-weight="800" fill="url(#gMain)" letter-spacing="-1">AVENTURAS</text>
+            <text x="127" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="19" font-weight="500" fill="#6366f1" letter-spacing="5.5">INTERACTIVAS</text>
+            <rect x="126" y="90" width="282" height="2" rx="1" fill="url(#gMain)" opacity="0.25"/>
+            <text x="128" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="12" fill="#9ca3af" font-style="italic" letter-spacing="0.8">lee · crea tu historia · escribe</text>
+        </svg>
+    </div>
     <p>Escanea este QR con tu teléfono para abrir la app</p>
     <div class="qr-box">
         <img id="qrimg" alt="QR Code" />
     </div>
-    <div class="url" id="appUrl"></div>
 
     <script>
         const url = window.location.origin;
-        document.getElementById('appUrl').textContent = url;
         document.getElementById('qrimg').src =
             'https://api.qrserver.com/v1/create-qr-code/?size=280x280&data=' + encodeURIComponent(url);
     </script>
