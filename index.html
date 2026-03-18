@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historias Interactivas - Lee tu Aventura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header con logo -->
+        <header class="header">
+            <img src="logo-historias-interactivas.png" alt="Buho Imagina - Historias Interactivas" style="max-width: 320px; width: 100%; height: auto;" />
+            <p>Elige tu aventura y vive una historia única</p>
+        </header>
+
+        <!-- Pantalla de inicio: Formulario de entrada -->
+        <div id="welcomeScreen" class="screen active">
+            <div class="welcome-card">
+                <h2>¡Hola! Bienvenido a tu aventura</h2>
+                <p>Cuéntanos un poco sobre ti para personalizar tu historia</p>
+                
+                <form id="userForm">
+                    <!-- Nombre -->
+                    <div class="form-group">
+                        <label for="userName">¿Cuál es tu nombre?</label>
+                        <input 
+                            type="text" 
+                            id="userName" 
+                            placeholder="Tu nombre aquí..." 
+                            required
+                            maxlength="20"
+                        >
+                    </div>
+
+                    <!-- Edad -->
+                    <div class="form-group">
+                        <label for="userAge">¿Cuántos años tienes?</label>
+                        <select id="userAge" required>
+                            <option value="">Selecciona tu edad</option>
+                            <option value="7-9">7 a 9 años</option>
+                            <option value="10-12">10 a 12 años</option>
+                            <option value="13-15">13 a 15 años</option>
+                        </select>
+                    </div>
+
+                    <!-- Tema de historia -->
+                    <div class="form-group">
+                        <label for="storyTopic">¿Qué tipo de historia te atrae?</label>
+                        <select id="storyTopic" required>
+                            <option value="">Selecciona un tema</option>
+                            <option value="Superhéroes">Superhéroes</option>
+                            <option value="Aventura Fantástica">Aventura Fantástica</option>
+                            <option value="Misterio">Misterio</option>
+                            <option value="Explorador Espacial">Explorador Espacial</option>
+                            <option value="Animales y Naturaleza">Animales y Naturaleza</option>
+                            <option value="Escuela Mágica">Escuela Mágica</option>
+                            <option value="Aventura Pirata">Aventura Pirata</option>
+                            <option value="Viajero del Tiempo">Viajero del Tiempo</option>
+                            <option value="Mundo de Videojuegos">Mundo de Videojuegos</option>
+                            <option value="Explorador Submarino">Explorador Submarino</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">¡Comenzar mi Aventura!</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Pantalla de historia -->
+        <div id="storyScreen" class="screen">
+            <div class="story-container">
+                <!-- Título de la historia -->
+                <div class="story-header">
+                    <h2 id="storyTitle"></h2>
+                    <p id="storyTopic" class="topic-badge"></p>
+                </div>
+
+                <!-- Texto de la historia -->
+                <div id="storyText" class="story-text"></div>
+
+                <!-- Ilustración del paso actual -->
+                <div id="storyIllustration" class="story-illustration"></div>
+
+                <!-- Pregunta de decisión -->
+                <div id="questionText" class="question-text"></div>
+
+                <!-- Botones de decisión -->
+                <div id="choicesContainer" class="choices-container">
+                    <button id="choiceA" class="btn btn-choice"></button>
+                    <button id="choiceB" class="btn btn-choice"></button>
+                </div>
+
+                <!-- Botones de control -->
+                <div class="story-controls">
+                    <button id="restartBtn" class="btn btn-secondary">Leer otra Historia</button>
+                    <button id="shareBtn" class="btn btn-secondary">Compartir</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalla de fin -->
+        <div id="endScreen" class="screen">
+            <div class="end-card">
+                <h2 id="endingTitle"></h2>
+                <div id="storyAnimation" class="story-animation"></div>
+                <p id="endingText" class="ending-text"></p>
+                
+                <div class="end-stats">
+                    <div class="stat">
+                        <span class="stat-label">Decisiones acertadas:</span>
+                        <span class="stat-value" id="decisionsCount"></span>
+                    </div>
+                </div>
+
+                <div class="end-buttons">
+                    <button id="playAgainBtn" class="btn btn-primary">Leer otra Historia</button>
+                    <button id="differentStoryBtn" class="btn btn-secondary">Elegir diferente Tema</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="storyIllustrations.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

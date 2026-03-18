@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR - Historias Interactivas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #f0f4f8;
+            text-align: center;
+        }
+        h1 { color: #333; margin-bottom: 8px; }
+        p { color: #666; margin-bottom: 24px; }
+        .qr-box { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .qr-box img { display: block; width: 280px; height: 280px; }
+        .url { margin-top: 20px; font-size: 14px; color: #888; word-break: break-all; max-width: 320px; }
+    </style>
+</head>
+<body>
+    <h1>📖 Aventuras Interactivas</h1>
+    <p>Escanea este QR con tu teléfono para abrir la app</p>
+    <div class="qr-box">
+        <img id="qrimg" alt="QR Code" />
+    </div>
+    <div class="url" id="appUrl"></div>
+
+    <script>
+        const url = window.location.origin;
+        document.getElementById('appUrl').textContent = url;
+        document.getElementById('qrimg').src =
+            'https://api.qrserver.com/v1/create-qr-code/?size=280x280&data=' + encodeURIComponent(url);
+    </script>
+</body>
+</html>
