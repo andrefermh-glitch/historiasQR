@@ -296,8 +296,7 @@ body {
 }
 
 .story-controls {
-    display: flex;
-    gap: 12px;
+    display: none;
 }
 
 .story-controls .btn-secondary {
