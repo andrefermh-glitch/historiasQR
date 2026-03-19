@@ -366,6 +366,161 @@ body {
     width: 100%;
 }
 
+/* Write story button */
+.btn-write {
+    background: linear-gradient(135deg, #f59e0b, #ec4899);
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    padding: 16px 24px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: inherit;
+    transition: var(--transition);
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+}
+
+.btn-write:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(245, 158, 11, 0.45);
+}
+
+/* Writing Screen */
+.writing-card {
+    background: var(--bg-primary);
+    padding: 40px 30px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-md);
+}
+
+.writing-header {
+    text-align: center;
+    margin-bottom: 32px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.writing-header h2 {
+    font-size: 26px;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.writing-header p {
+    color: var(--text-secondary);
+    font-size: 16px;
+}
+
+.writing-section {
+    margin-bottom: 32px;
+}
+
+.writing-section h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 14px;
+}
+
+.reflection-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reflection-question {
+    background: var(--bg-secondary);
+    border-left: 4px solid var(--accent-color);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    font-size: 16px;
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+.writing-prompt-box {
+    background: linear-gradient(135deg, #fef3c7, #fce7f3);
+    border: 2px dashed #f59e0b;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .writing-prompt-box {
+        background: linear-gradient(135deg, #1f1a0a, #1a0f18);
+        border-color: #92400e;
+    }
+}
+
+.writing-prompt-box .prompt-starter {
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+}
+
+.writing-prompt-box .prompt-continuation {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.writing-prompt-box .prompt-hook {
+    font-size: 15px;
+    color: #b45309;
+    font-style: italic;
+    background: rgba(245, 158, 11, 0.1);
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .writing-prompt-box .prompt-hook {
+        color: #fcd34d;
+    }
+}
+
+.writing-tips {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tip-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--bg-secondary);
+    border-radius: 10px;
+    padding: 12px 16px;
+}
+
+.tip-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+.tip-card p {
+    font-size: 15px;
+    color: var(--text-primary);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.writing-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.writing-buttons .btn {
+    flex: 1;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
     .header {
@@ -379,7 +534,8 @@ body {
 
     .welcome-card,
     .story-container,
-    .end-card {
+    .end-card,
+    .writing-card {
         padding: 24px 16px;
     }
 

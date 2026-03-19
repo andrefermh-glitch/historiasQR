@@ -27,6 +27,9 @@ const restartBtn = document.getElementById('restartBtn');
 const shareBtn = document.getElementById('shareBtn');
 const playAgainBtn = document.getElementById('playAgainBtn');
 const differentStoryBtn = document.getElementById('differentStoryBtn');
+const writeStoryBtn = document.getElementById('writeStoryBtn');
+const backToEndBtn = document.getElementById('backToEndBtn');
+const newStoryFromWritingBtn = document.getElementById('newStoryFromWritingBtn');
 const endingTitle = document.getElementById('endingTitle');
 const endingText = document.getElementById('endingText');
 const decisionsCount = document.getElementById('decisionsCount');
@@ -601,6 +604,9 @@ function setupEventListeners() {
     shareBtn.addEventListener('click', shareStory);
     playAgainBtn.addEventListener('click', playAgain);
     differentStoryBtn.addEventListener('click', resetToWelcome);
+    writeStoryBtn.addEventListener('click', showWritingPrompt);
+    backToEndBtn.addEventListener('click', () => switchScreen('endScreen'));
+    newStoryFromWritingBtn.addEventListener('click', resetToWelcome);
 }
 
 // Handle form submission
@@ -736,6 +742,87 @@ function showEnding() {
     decisionsCount.textContent = `${currentState.score} / 5`;
 
     playStoryAnimation(story.topic);
+}
+
+// Show writing prompt screen
+function showWritingPrompt() {
+    const story = currentState.selectedStory;
+    const name = currentState.userName;
+    const score = currentState.score;
+
+    // Reflection questions — personalized with name and story title
+    const questions = [
+        `¿Cuál fue el momento más emocionante de <em>${story.title}</em> para ti?`,
+        `¿Qué decisión habrías tomado diferente si volvieras a empezar?`,
+        `¿Cómo describirías a <strong>${name}</strong> como personaje en una sola frase?`
+    ];
+
+    const reflectionEl = document.getElementById('reflectionQuestions');
+    reflectionEl.innerHTML = questions.map(q =>
+        `<div class="reflection-question">💬 ${q}</div>`
+    ).join('');
+
+    // Topic-specific continuation prompts
+    const continuationData = {
+        'Superhéroes': {
+            prompt: `¿Y si ${name} descubriera un poder secreto que nadie más conoce? ¿Cómo cambiaría todo?`,
+            hook: `Empieza así: "Al día siguiente, ${name} notó algo extraño en su sombra..."`
+        },
+        'Aventura Fantástica': {
+            prompt: `¿Qué pasaría si ${name} encontrara un mapa que lleva a un lugar que nadie ha visitado jamás?`,
+            hook: `Empieza así: "El mapa apareció doblado entre las páginas de un libro muy viejo..."`
+        },
+        'Misterio': {
+            prompt: `El misterio está resuelto... ¿o no? ¿Y si ${name} descubriera una pista que lo cambia todo?`,
+            hook: `Empieza así: "Tres días después, llegó una carta sin remitente..."`
+        },
+        'Explorador Espacial': {
+            prompt: `${name} recibe una señal de otro planeta. ¿Qué dice el mensaje? ¿Quién lo envió?`,
+            hook: `Empieza así: "La pantalla parpadeó a medianoche con un mensaje en un idioma desconocido..."`
+        },
+        'Animales y Naturaleza': {
+            prompt: `Un animal herido llega hasta donde está ${name}. ¿De dónde viene? ¿Qué necesita?`,
+            hook: `Empieza así: "Era una mañana tranquila cuando escuché ese sonido en el jardín..."`
+        },
+        'Escuela Mágica': {
+            prompt: `${name} encuentra un libro prohibido en la biblioteca. ¿Qué hechizo contiene que nadie debe aprender?`,
+            hook: `Empieza así: "Estaba ordenando los estantes cuando el libro cayó solo al suelo..."`
+        },
+        'Aventura Pirata': {
+            prompt: `En el fondo del cofre del tesoro, ${name} encuentra algo que no esperaba. ¿Qué es y por qué cambia todo?`,
+            hook: `Empieza así: "Debajo de todas las monedas de oro había un sobre sellado con cera roja..."`
+        },
+        'Viajero del Tiempo': {
+            prompt: `La máquina del tiempo lleva a ${name} a un lugar equivocado. ¿Dónde —o cuándo— está ahora?`,
+            hook: `Empieza así: "Cuando las luces se apagaron y se encendieron de nuevo, nada era igual..."`
+        },
+        'Mundo de Videojuegos': {
+            prompt: `${name} descubre un nivel secreto que no existe en ninguna versión del juego. ¿Qué hay dentro?`,
+            hook: `Empieza así: "La pantalla de carga se congeló, y entonces apareció una puerta que nunca había visto antes..."`
+        },
+        'Explorador Submarino': {
+            prompt: `En las profundidades, ${name} encuentra una ciudad antigua bajo el mar. ¿Quién vivía allí?`,
+            hook: `Empieza así: "Entre las algas y la oscuridad, brillaba una luz que no debería estar ahí..."`
+        }
+    };
+
+    const data = continuationData[story.topic] || {
+        prompt: `¿Qué aventura viviría ${name} a continuación?`,
+        hook: `Empieza así: "Un día después, todo volvió a cambiar..."`
+    };
+
+    // Add alternative ending invite if the score was low
+    const altEnding = score < 2
+        ? `<p class="prompt-starter">¿No te gustó cómo terminó? <strong>¡Escribe el final que merece ${name}!</strong></p>`
+        : `<p class="prompt-starter">¿Quieres continuar la aventura de ${name}?</p>`;
+
+    document.getElementById('writingPromptBox').innerHTML = `
+        ${altEnding}
+        <p class="prompt-continuation">${data.prompt}</p>
+        <p class="prompt-hook">📝 ${data.hook}</p>
+    `;
+
+    switchScreen('writingScreen');
 }
 
 // Switch between screens
