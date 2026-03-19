@@ -1855,7 +1855,7 @@ function showWritingPrompt() {
 
     // Reflection questions — personalized with name and story title
     const questions = [
-        `¿Cuál fue el momento más emocionante de <em>${story.title}</em> para ti?`,
+        `¿Cuál fue el momento más emocionante de <em>${story.title.replace(/\[NAME\]/g, name)}</em> para ti?`,
         `¿Qué decisión habrías tomado diferente si volvieras a empezar?`,
         `¿Cómo describirías a <strong>${name}</strong> como personaje en una sola frase?`
     ];
