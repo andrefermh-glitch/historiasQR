@@ -48,7 +48,7 @@ function loadStories() {
       "id": 1,
       "title": "Superhéroes: La Ciudad te Necesita",
       "topic": "Superhéroes",
-      "ageGroup": "7-15",
+      "ageGroup": "10-12",
       "opening": "¡La ciudad tiembla, [NAME]! Un rayo de tormenta te acaba de dar superpoderes y el comisario de policía te llama directamente: un villano misterioso está sembrando el caos. Eres el único con poderes en toda la ciudad. La gente te mira con esperanza. ¿Estás listo para ser un héroe?",
       "steps": [
         {
@@ -102,7 +102,7 @@ function loadStories() {
       "id": 2,
       "title": "Aventura Fantástica: El Reino Perdido",
       "topic": "Aventura Fantástica",
-      "ageGroup": "7-15",
+      "ageGroup": "10-12",
       "opening": "El bosque encantado susurra tu nombre, [NAME]. Una profecía antigua dice que un valiente aventurero restaurará el Reino Perdido de Eldoria, desaparecido hace mil años. Con una mochila al hombro y la espada de madera tallada por tu abuelo, das el primer paso hacia lo desconocido.",
       "steps": [
         {
@@ -156,7 +156,7 @@ function loadStories() {
       "id": 3,
       "title": "Misterio: El Caso de la Joya Desaparecida",
       "topic": "Misterio",
-      "ageGroup": "7-15",
+      "ageGroup": "10-12",
       "opening": "¡Buenas noches, Detective [NAME]! Una llamada urgente a las 9 de la noche te saca de la cama: la Estrella de Oriente, el diamante más valioso del mundo, ha desaparecido del museo en plena gala. Tienes 12 horas para encontrarla antes de que el ladrón abandone la ciudad. El reloj ya corre.",
       "steps": [
         {
@@ -210,7 +210,7 @@ function loadStories() {
       "id": 4,
       "title": "Explorador Espacial: Viaje al Planeta Nexus",
       "topic": "Explorador Espacial",
-      "ageGroup": "7-15",
+      "ageGroup": "10-12",
       "opening": "Cuenta atrás: 10, 9, 8... ¡Los motores de la nave Horizonte rugen y tú, Capitán [NAME], estás pegado a tu asiento por la fuerza del despegue! Tu misión: llegar al misterioso Planeta Nexus del que solo existen rumores y volver con vida. La NASA dice que es imposible. Tú dices que lo harás.",
       "steps": [
         {
@@ -264,7 +264,7 @@ function loadStories() {
       "id": 5,
       "title": "Animales y Naturaleza: Guardián del Bosque",
       "topic": "Animales y Naturaleza",
-      "ageGroup": "7-15",
+      "ageGroup": "10-12",
       "opening": "El Bosque Eterno ha sido tu hogar desde siempre, [NAME]. Los animales te conocen y confían en ti. Pero esta madrugada el búho mayor te despierta agitado: ¡las máquinas llegarán al amanecer para talar todo el bosque! Tienes una sola noche para salvarlo.",
       "steps": [
         {
@@ -318,7 +318,7 @@ function loadStories() {
       "id": 6,
       "title": "Escuela Mágica: El Desastre del Hechizo",
       "topic": "Escuela Mágica",
-      "ageGroup": "7-15",
+      "ageGroup": "10-12",
       "opening": "¡Bienvenido a la Academia Arcana, [NAME]! Hoy es tu primer día y ya se nota que tienes talento: cuando entraste, todas las velas del aula se encendieron solas. Pero antes de sentarte, un estudiante torpón lanza accidentalmente el Hechizo de la Piedra Eterna y convierte a todos los profesores en estatuas. El caos es total. Todos te señalan: ¡tú tienes que arreglarlo!",
       "steps": [
         {
@@ -372,7 +372,7 @@ function loadStories() {
       "id": 7,
       "title": "Aventura Pirata: La Caza del Tesoro",
       "topic": "Aventura Pirata",
-      "ageGroup": "7-15",
+      "ageGroup": "10-12",
       "opening": "¡Izar velas, marineros! Capitán [NAME] al timón del Dragón Plateado, el barco más rápido de todos los mares. Un mapa encontrado en el cofre de tu bisabuelo señala la Brújula de Oro, un tesoro legendario que dicen que concede a quien la toque el don de nunca perderse en la vida. Pero la flota del temido Almirante Sombra también la busca.",
       "steps": [
         {
@@ -426,7 +426,7 @@ function loadStories() {
       "id": 8,
       "title": "Viajero del Tiempo: Salvando la Historia",
       "topic": "Viajero del Tiempo",
-      "ageGroup": "7-15",
+      "ageGroup": "10-12",
       "opening": "¡ZAP! Tu máquina del tiempo funciona. La pantalla parpadea en rojo: ¡ERROR CRÍTICO EN LA LÍNEA DE TIEMPO! Alguien cambió el pasado y si no lo corriges en horas, el futuro dejará de existir tal como lo conoces. Eres [NAME], el inventor más joven de la historia, y acabas de convertirte en el único que puede salvar el mundo.",
       "steps": [
         {
@@ -480,7 +480,7 @@ function loadStories() {
       "id": 9,
       "title": "Mundo de Videojuegos: El Jefe Final",
       "topic": "Mundo de Videojuegos",
-      "ageGroup": "7-15",
+      "ageGroup": "10-12",
       "opening": "Tu pantalla parpadea y de repente... ¡estás dentro del juego! [NAME], has sido absorbido por el legendario Mundo de Héroes y para salir debes llegar al nivel 100 y derrotar al Jefe Supremo. Pero cuidado: si pierdes todos tus puntos de vida, te quedas atrapado para siempre. Las reglas del juego son ahora las reglas de tu vida.",
       "steps": [
         {
@@ -534,7 +534,7 @@ function loadStories() {
       "id": 10,
       "title": "Explorador Submarino: El Secreto del Abismo",
       "topic": "Explorador Submarino",
-      "ageGroup": "7-15",
+      "ageGroup": "10-12",
       "opening": "El submarino Nautilus III desciende lentamente hacia la oscuridad más absoluta. A 11.000 metros de profundidad, donde ningún humano ha llegado jamás, tus instrumentos registran datos nunca vistos. Tú, el joven científico marino [NAME], estás a punto de cambiar la historia. Aquí abajo, lo desconocido espera.",
       "steps": [
         {
@@ -583,6 +583,1106 @@ function loadStories() {
         "success": "¡Increíble expedición, [NAME]! La ciudad submarina es el descubrimiento arqueológico del siglo. Las fotografías e inscripciones que trajiste mantendrán ocupados a los científicos durante décadas. No todo pudo explorarse esta vez, pero lo que encontraste es suficiente para cambiar lo que sabemos sobre la historia.",
         "failure": "Regresaste a salvo del abismo, [NAME], que ya es mucho. La ciudad submarina existe y eso es histórico aunque los datos sean incompletos. Los científicos tienen suficiente para organizar una segunda expedición. Y esta vez, tú ya sabes lo que hay allá abajo. ¡El océano te llama de nuevo!"
       }
+    },
+
+    {
+      "id": 11,
+      "title": "¡Super [NAME] al Rescate!",
+      "topic": "Superhéroes",
+      "ageGroup": "7-9",
+      "opening": "¡[NAME], tienes superpoderes! Esta mañana, al despertar, descubriste que puedes volar y levantar cosas muy pesadas. Tu amigo Teo está atrapado en lo alto de un árbol enorme y no puede bajar. ¡Es tu momento de ser un héroe!",
+      "steps": [
+        {
+          "question": "Teo tiene miedo y no quiere soltarse del árbol. ¿Qué haces?",
+          "choiceA": "Volar hasta él y cargarlo suavemente hasta el suelo",
+          "choiceB": "Gritarle que salte y que tú lo atraparás",
+          "resultA": "¡Perfecto! Llevas a Teo al suelo con mucho cuidado. Él te da un abrazo enorme. ¡Eres un héroe! Pero entonces escuchas que un perrito está atrapado más lejos.",
+          "resultB": "Teo se asusta más con los gritos y se aferra al árbol con más fuerza. Tienes que buscar otra forma de ayudarlo.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Un perrito está atrapado en un jardín cerrado con llave. ¿Cómo lo rescatas?",
+          "choiceA": "Romper la verja de una patada",
+          "choiceB": "Buscar al dueño de la casa para que abra",
+          "resultA": "Rompes la verja pero el ruido asusta al perrito y sale corriendo. Ahora está perdido en la calle.",
+          "resultB": "El dueño llega corriendo, abre la puerta y el perrito sale moviendo la cola. ¡Mucho mejor que romper cosas!",
+          "wiseChoice": "B"
+        },
+        {
+          "question": "El perrito corre hacia la calle con coches. ¿Qué haces rápido?",
+          "choiceA": "Volar hasta la calle y parar los coches con los brazos",
+          "choiceB": "Volar delante del perrito y guiarlo de vuelta a la acera",
+          "resultA": "Paras los coches pero el perrito se escapa por otro lado. ¡Qué lío!",
+          "resultB": "El perrito te sigue a la acera. ¡Lo has salvado! La gente del barrio aplaude.",
+          "wiseChoice": "B"
+        },
+        {
+          "question": "Un niño pequeño llora porque su globo voló hasta el tejado. ¿Qué haces?",
+          "choiceA": "Volar a buscar el globo y devolverlo",
+          "choiceB": "Decirle que los globos no importan y seguir tu camino",
+          "resultA": "Subes al tejado, coges el globo y se lo devuelves. El niño sonríe y deja de llorar. ¡Eso es ser un héroe de verdad!",
+          "resultB": "El niño llora más fuerte. Los héroes ayudan siempre, no solo en los grandes momentos.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Al final del día el alcalde quiere darte una medalla. ¿Qué le dices?",
+          "choiceA": "«¡Gracias! Yo solo hago mi trabajo de héroe»",
+          "choiceB": "«No la quiero, yo no hice nada especial»",
+          "resultA": "El alcalde te pone la medalla y toda la ciudad celebra. Lo mejor es que Teo y el niño del globo se hicieron tus amigos.",
+          "resultB": "El alcalde se queda confundido. Los héroes también saben aceptar el cariño de la gente con orgullo.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "¡[NAME], eres el héroe más querido del barrio! Salvaste a Teo, rescataste al perrito, devolviste el globo y recibiste la medalla del alcalde. Todos quieren ser tus amigos. ¡Esta fue solo tu primera aventura de muchas!",
+        "success": "¡Lo hiciste, [NAME]! Ayudaste a mucha gente hoy. Cometiste algún error pequeño pero lo más importante es que no te rendiste. ¡El barrio está orgulloso de su héroe!",
+        "failure": "¡Sigue intentándolo, [NAME]! Hoy no salió todo perfecto, pero aprendiste mucho. Los mejores superhéroes también se equivocan al principio. ¡Mañana lo harás mejor!"
+      }
+    },
+
+    {
+      "id": 12,
+      "title": "[NAME] y el Dragón de Colores",
+      "topic": "Aventura Fantástica",
+      "ageGroup": "7-9",
+      "opening": "¡[NAME], escucha! Al fondo del bosque hay un dragón pequeñito que llora. Todos los animales tienen miedo de él porque escupe burbujas de colores. Pero tú no tienes miedo. Vas a entrar al bosque a ver qué le pasa.",
+      "steps": [
+        {
+          "question": "El dragón está llorando y tiene una espina en la pata. ¿Qué haces?",
+          "choiceA": "Acercarte despacio y ofrecerle tu mano",
+          "choiceB": "Llamar a gritos para que venga alguien a ayudarte",
+          "resultA": "El dragón te deja tocar su pata y consigues sacarle la espina. ¡Confía en ti!",
+          "resultB": "El ruido asusta al dragón y escupe burbujas por todos lados. Los animales del bosque huyen.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El dragón quiere ir a casa pero no sabe dónde está. ¿Cómo lo ayudas?",
+          "choiceA": "Seguir las huellas de sus pasos que llegan hasta aquí",
+          "choiceB": "Subir a su lomo y volar muy alto para buscar desde arriba",
+          "resultA": "Sigues las huellas por el bosque. Cada vez que giráis bien el dragón mueve la cola de alegría.",
+          "resultB": "¡Qué vistas tan bonitas desde arriba! Veis el camino al instante.",
+          "wiseChoice": "B"
+        },
+        {
+          "question": "Hay un río enorme que no podéis cruzar. ¿Cómo pasáis?",
+          "choiceA": "Pedirle al dragón que use sus burbujas para cruzar",
+          "choiceB": "Buscar un puente de piedras más adelante",
+          "resultA": "Las burbujas llevan al dragón al otro lado. ¡Pero tú te quedas atrás!",
+          "resultB": "Encontráis un puente de piedras precioso. Los dos cruzáis juntos.",
+          "wiseChoice": "B"
+        },
+        {
+          "question": "Encontráis la cueva del dragón pero hay un oso dormido en la entrada. ¿Qué hacéis?",
+          "choiceA": "El dragón sopla una burbuja para despertar al oso",
+          "choiceB": "Esperar en silencio hasta que el oso se mueva solo",
+          "resultA": "El oso se despierta de golpe y os gruñe muy enfadado. ¡Tenéis que correr!",
+          "resultB": "El oso se estira, bosteza y se va a buscar miel. ¡El camino está libre!",
+          "wiseChoice": "B"
+        },
+        {
+          "question": "Dentro de la cueva está la mamá del dragón. ¿Qué le dices?",
+          "choiceA": "«¡Aquí está tu hijo! Me llamo [NAME] y lo he ayudado»",
+          "choiceB": "Quedarte callado porque da un poco de miedo",
+          "resultA": "La mamá dragón te mira con cariño y te regala una escama mágica brillante. ¡Tu mejor tesoro!",
+          "resultB": "La mamá dragón te da un gran abrazo de todas formas. ¡Los dragones son buena gente!",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "¡[NAME], eres la persona más valiente del bosque! Curaste al dragón, encontraste su casa y te hiciste su mejor amigo. Ahora tienes una escama mágica y un dragón que siempre te cuidará. ¡Esta amistad durará para siempre!",
+        "success": "¡Lo lograste, [NAME]! El dragón está en casa con su mamá gracias a ti. Cometiste algún error en el camino pero no te rendiste. ¡El bosque entero habla de tu valentía!",
+        "failure": "El dragón llegó a casa, [NAME], aunque el viaje fue complicado. La mamá dragón dice que eres muy valiente por haberlo intentado. ¡Vuelve a visitarlos cuando quieras!"
+      }
+    },
+
+    {
+      "id": 13,
+      "title": "El Misterio de la Mochila de [NAME]",
+      "topic": "Misterio",
+      "ageGroup": "7-9",
+      "opening": "¡[NAME], alguien se ha llevado tu mochila del colegio! Dentro estaba tu libro favorito, tu merienda y el dibujo que hiciste para mamá. No hay nadie mayor que pueda ayudarte ahora mismo. Tienes que resolver este misterio tú solo.",
+      "steps": [
+        {
+          "question": "¿Por dónde empiezas a buscar pistas?",
+          "choiceA": "Preguntar a tus compañeros si vieron algo",
+          "choiceB": "Ir directamente al patio a buscar la mochila",
+          "resultA": "Tu amiga Lucía recuerda haber visto a alguien coger algo del perchero. ¡Una pista importante!",
+          "resultB": "El patio está lleno de niños jugando. No encuentras nada sin más pistas.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Lucía dice que vio a alguien con tu mochila ir hacia el gimnasio. ¿Qué haces?",
+          "choiceA": "Correr al gimnasio lo más rápido posible",
+          "choiceB": "Ir despacio mirando el suelo por si hay más pistas",
+          "resultA": "Llegas al gimnasio pero está vacío. La persona ya se fue.",
+          "resultB": "Encuentras un pegativo de una estrella en el suelo. ¡Sabes quién lleva ese pegativo en su estuche!",
+          "wiseChoice": "B"
+        },
+        {
+          "question": "El pegativo es de Marcos, un niño de otra clase. ¿Qué haces?",
+          "choiceA": "Acusarle delante de todos en el recreo",
+          "choiceB": "Hablar con él a solas y preguntarle con calma",
+          "resultA": "Marcos se pone colorado y los demás se ríen. Pero resulta que él no la cogió. Cometiste un error.",
+          "resultB": "Marcos te dice que la vio cerca de las taquillas y que le pareció rara porque estaba abierta.",
+          "wiseChoice": "B"
+        },
+        {
+          "question": "En la taquilla encuentras tu mochila abierta pero el libro no está. ¿Qué haces?",
+          "choiceA": "Revisar todas las taquillas una por una",
+          "choiceB": "Pensar: ¿quién quería ese libro específicamente?",
+          "resultA": "Abrir todas las taquillas lleva mucho tiempo. El recreo casi termina.",
+          "resultB": "Recuerdas que ayer alguien te preguntó si podía leer ese libro. ¡Ya sabes quién es!",
+          "wiseChoice": "B"
+        },
+        {
+          "question": "Encuentras a esa persona con tu libro. Está llorando porque tiene miedo. ¿Qué haces?",
+          "choiceA": "Decirle que está bien y prestarle el libro",
+          "choiceB": "Enfadarte mucho y contárselo al profe",
+          "resultA": "Le prestas el libro y quedáis en devolverlo mañana. ¡Acabas de hacer un nuevo amigo!",
+          "resultB": "El profe regaña al niño. Se pone muy triste y pierdes la oportunidad de ser amigos.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "¡Eres un detective increíble, [NAME]! Seguiste todas las pistas, resolviste el misterio y además hiciste un nuevo amigo. Tu libro volvió a casa y aprendiste que a veces la gente hace cosas malas por razones tristes. ¡Eso es ser muy listo y muy buena persona!",
+        "success": "¡Caso resuelto, [NAME]! Recuperaste tu mochila y todo lo que había dentro. El camino no fue perfecto pero llegaste al final. ¡Eres un gran detective en ciernes!",
+        "failure": "Recuperaste la mochila pero el camino fue muy complicado, [NAME]. La próxima vez ya sabrás qué pistas buscar primero. ¡Los mejores detectives aprenden de cada caso!"
+      }
+    },
+
+    {
+      "id": 14,
+      "title": "[NAME] y el Cohete Mágico",
+      "topic": "Explorador Espacial",
+      "ageGroup": "7-9",
+      "opening": "¡[NAME], en el jardín hay un cohete pequeño esperándote! Tiene un cartel que dice: «Solo para exploradores valientes». Dentro hay un traje espacial de tu talla exacta y un mapa con una estrella marcada. ¿Te atreves a ir?",
+      "steps": [
+        {
+          "question": "El cohete te lleva a un planeta lleno de flores moradas que brillan. ¿Qué haces primero?",
+          "choiceA": "Salir a explorar con cuidado",
+          "choiceB": "Quedarte dentro del cohete por si hay peligros",
+          "resultA": "El planeta huele muy bien y el suelo es suave. ¡Es precioso! Un ser pequeño y redondo se acerca saltando.",
+          "resultB": "Desde la ventanilla ves cosas maravillosas pero no puedes tocarlas. La aventura está afuera.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El ser redondo habla con pitidos. No lo entiendes. ¿Qué haces?",
+          "choiceA": "Hacer mímica y gestos para comunicarte",
+          "choiceB": "Hablarle muy despacio y muy alto",
+          "resultA": "¡Funciona! Con gestos os entendéis perfectamente. El ser está muy contento.",
+          "resultB": "El ser se tapa las orejas. Hablar más alto no es la solución.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El ser te muestra su nave rota. ¿Cómo ayudas?",
+          "choiceA": "Usar las herramientas de tu cohete para arreglarla",
+          "choiceB": "Decirle que no sabes arreglar naves",
+          "resultA": "Con las herramientas y entre los dos consiguen arreglar una parte importante. El ser salta de alegría.",
+          "resultB": "El ser se pone triste. Los exploradores intentan ayudar aunque no sepan todo.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Empieza a oscurecer y las flores se cierran. ¿Qué haces?",
+          "choiceA": "Quedarte a dormir en el planeta una noche",
+          "choiceB": "Volver al cohete antes de que sea de noche",
+          "resultA": "La noche en el planeta es increíble: el cielo tiene miles de lunas de colores.",
+          "resultB": "Llegas al cohete justo a tiempo. Desde dentro ves cómo el cielo se llena de lunas de colores. ¡Espectacular!",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Antes de volver a casa el ser te ofrece un cristal brillante de recuerdo. ¿Qué haces?",
+          "choiceA": "Darle algo tuyo a cambio, como tu lápiz favorito",
+          "choiceB": "Coger el cristal y decir gracias",
+          "resultA": "El ser mira el lápiz con curiosidad total. El intercambio os hace sentir amigos de verdad. ¡Prometéis volver a veros!",
+          "resultB": "El ser está contento pero tú sabes que podrías haber hecho el intercambio más especial.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "¡[NAME], eres el explorador espacial más valiente del universo! Hiciste un amigo en otro planeta, arreglaste su nave, dormiste bajo miles de lunas y volviste a casa con un cristal mágico. ¡El universo entero te espera!",
+        "success": "¡Qué aventura, [NAME]! Visitaste un planeta increíble y hiciste un nuevo amigo. No todo fue perfecto pero volviste a casa con recuerdos para toda la vida. ¡El espacio te llama de nuevo!",
+        "failure": "Llegaste a casa sano y salvo, [NAME], y eso ya es mucho. La próxima vez que el cohete aparezca en el jardín ya sabrás qué hacer mejor. ¡El universo te da otra oportunidad!"
+      }
+    },
+
+    {
+      "id": 15,
+      "title": "[NAME] y el Patito Perdido",
+      "topic": "Animales y Naturaleza",
+      "ageGroup": "7-9",
+      "opening": "¡[NAME], hay un patito amarillo solo en la acera! Está perdido y llora con un sonido muy suave. No hay ningún estanque cerca y no sabes de dónde ha venido. El patito te mira con sus ojitos negros y brillantes. ¡Tienes que ayudarlo!",
+      "steps": [
+        {
+          "question": "El patito no quiere que lo toques y se aleja. ¿Qué haces?",
+          "choiceA": "Agacharte y esperar quieto a que él se acerque",
+          "choiceB": "Correr detrás de él para cogerlo",
+          "resultA": "El patito para, te mira y da dos pasitos hacia ti. ¡Confía en ti poco a poco!",
+          "resultB": "El patito corre más rápido y casi llega a la calle. ¡Qué susto!",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El patito tiene hambre. ¿Qué le das?",
+          "choiceA": "Un trozo de pan de tu merienda",
+          "choiceB": "Unas piedras pequeñas del suelo",
+          "resultA": "El patito come feliz y mueve la colita. Ahora te sigue a todas partes.",
+          "resultB": "Los patos no comen piedras. ¡Hay que darle comida de verdad!",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "La señora Rosa dice que hay un estanque en el parque. ¿Cómo vais?",
+          "choiceA": "Ir al parque caminando despacito con el patito",
+          "choiceB": "Coger el patito rápido y correr al parque",
+          "resultA": "El patito camina a tu lado como si fuera tu mascota. ¡Los vecinos os hacen fotos!",
+          "resultB": "El patito se asusta al moverte tan rápido y llora más.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "En el estanque hay muchos patos pero la mamá no aparece. ¿Qué haces?",
+          "choiceA": "Quedarte esperando junto al estanque",
+          "choiceB": "Ir a buscarla por todo el parque",
+          "resultA": "En diez minutos la mamá pata aparece nadando desde el otro lado. ¡Estaba muy cerca!",
+          "resultB": "Mientras buscas, el patito se cae al estanque. ¡Pero sabe nadar perfectamente!",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "La mamá pata y el patito se reúnen. ¿Qué haces tú?",
+          "choiceA": "Sentarte un rato a verlos nadar juntos",
+          "choiceB": "Irte corriendo a contárselo a todo el mundo",
+          "resultA": "Ver cómo el patito nada junto a su mamá es lo más bonito del día. Te quedas sonriendo un buen rato.",
+          "resultB": "Cuando cuentas la historia todos sonríen pero tú te perdiste el momento más bonito.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "¡[NAME], qué corazón tan grande tienes! El patito está con su mamá gracias a ti. Lo alimentaste, lo guiaste y esperaste con paciencia. Los animales del parque siempre te recordarán como su amigo especial.",
+        "success": "¡El patito llegó a casa, [NAME]! No todo fue fácil pero nunca te rendiste. Eso es lo más importante. ¡La mamá pata te está muy agradecida!",
+        "failure": "El patito encontró a su mamá al final, [NAME], aunque el camino fue complicado. Lo importante es que no lo dejaste solo. ¡Eres una buena persona!"
+      }
+    },
+
+    {
+      "id": 16,
+      "title": "El Primer Hechizo de [NAME]",
+      "topic": "Escuela Mágica",
+      "ageGroup": "7-9",
+      "opening": "¡[NAME], llegó una carta por la ventana! Dice que has sido admitido en la Escuela Mágica del Bosque. Mañana es tu primer día. Tienes una varita pequeña y brillante que encontraste con la carta. ¡La aventura empieza ahora!",
+      "steps": [
+        {
+          "question": "La profesora Lila pide que hagas tu primer hechizo: encender una vela. ¿Cómo lo intentas?",
+          "choiceA": "Concentrarte mucho y pensar en luz",
+          "choiceB": "Agitar la varita muy rápido y gritar muy fuerte",
+          "resultA": "La vela se enciende con una llamita suave y dorada. ¡Todos aplauden!",
+          "resultB": "La varita despide chispas por todos lados. ¡Qué lío!",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Tu compañero Berto no puede hacer su hechizo y está triste. ¿Qué haces?",
+          "choiceA": "Explicarle el truco de concentrarse que acabas de aprender",
+          "choiceB": "Ignorarlo para no perder tiempo",
+          "resultA": "Berto lo intenta siguiendo tu consejo y lo consigue. ¡Se hace tu mejor amigo al instante!",
+          "resultB": "Berto sigue triste. Los buenos magos también ayudan a los demás.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "En el recreo encuentras una varita rota en el suelo. ¿Qué haces?",
+          "choiceA": "Llevársela a la profesora",
+          "choiceB": "Quedártela para tener dos varitas",
+          "resultA": "La profesora dice que era la varita perdida de un alumno mayor. Te da un punto estrella de recompensa.",
+          "resultB": "La varita rota no funciona y la profesora descubre que la tienes. Hay que devolverla.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Por la tarde hay un examen de hechizos. ¿Cómo te preparas?",
+          "choiceA": "Repasar los hechizos con calma",
+          "choiceB": "No prepararte porque crees que ya sabes todo",
+          "resultA": "El examen va muy bien. Te acuerdas de todo lo que repasaste.",
+          "resultB": "En el examen te olvidas de un hechizo importante. ¡Había que estudiar!",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El último reto: hacer volar un objeto. ¿Qué eliges?",
+          "choiceA": "Tu mochila, que pesa poco",
+          "choiceB": "El escritorio de la profesora, que pesa muchísimo",
+          "resultA": "La mochila vuela perfectamente describiendo un círculo. ¡La profesora te da una estrella dorada!",
+          "resultB": "El escritorio no se mueve ni un milímetro. Empezar con algo pequeño es más inteligente.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "¡[NAME], terminaste tu primer día como el mejor mago de la clase! Encendiste velas, ayudaste a Berto, fuiste honesto con la varita y superaste el examen con una estrella dorada. ¡La Escuela Mágica tiene un nuevo héroe!",
+        "success": "¡Qué primer día tan lleno de aventuras, [NAME]! Aprendiste mucho y también cometiste algún pequeño error. Pero así aprenden los mejores magos. ¡Mañana será aún mejor!",
+        "failure": "Tu primer día tuvo muchos tropiezos, [NAME], pero eso no importa. Todos los grandes magos empezaron igual. ¡La magia tarda en aprenderse y tú tienes toda la vida por delante!"
+      }
+    },
+
+    {
+      "id": 17,
+      "title": "[NAME] y el Tesoro Enterrado",
+      "topic": "Aventura Pirata",
+      "ageGroup": "7-9",
+      "opening": "¡[NAME], encontraste un mapa del tesoro debajo de tu cama! El mapa muestra una isla con una X marcada. Tu barquito de madera del jardín de repente se convierte en un barco pirata de verdad. ¡Es hora de zarpar!",
+      "steps": [
+        {
+          "question": "El mapa dice que primero hay que cruzar el Mar de las Medusas. ¿Cómo navegas?",
+          "choiceA": "Con cuidado, mirando el agua para esquivar las medusas",
+          "choiceB": "A toda velocidad para cruzar rápido",
+          "resultA": "El barco pasa entre las medusas sin tocarlas. ¡Son preciosas vistas de cerca!",
+          "resultB": "Una medusa golpea el barco y lo frena mucho. Tardas el doble.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "En la isla hay dos caminos. El mapa no es muy claro. ¿Cuál eliges?",
+          "choiceA": "El de las palmeras, porque los tesoros suelen estar escondidos entre árboles",
+          "choiceB": "El llano porque es más fácil de caminar",
+          "resultA": "¡El mapa tiene una palmera marcada! Ibas por el camino correcto.",
+          "resultB": "El camino llano no lleva a ningún sitio. Hay que volver al cruce.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Un loro que habla dice que sabe dónde está el tesoro. ¿Qué haces?",
+          "choiceA": "Escucharle con atención y darle algo a cambio",
+          "choiceB": "Ignorarle porque los loros no son de fiar",
+          "resultA": "Le das una galleta y él te da la pista exacta. ¡El loro era la clave del mapa!",
+          "resultB": "El loro se va volando. Sin su pista el mapa se vuelve confuso.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El tesoro está enterrado bajo una piedra muy pesada. ¿Cómo la mueves?",
+          "choiceA": "Usar el palo del barco como palanca",
+          "choiceB": "Intentar empujarla con las manos",
+          "resultA": "Con la palanca la piedra se mueve. ¡Eres muy listo para resolver problemas!",
+          "resultB": "La piedra no se mueve ni un milímetro. Hay que pensar mejor.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Abres el cofre y está lleno de monedas de chocolate. ¿Qué haces?",
+          "choiceA": "Guardar algunas y compartir el resto con tus amigos",
+          "choiceB": "Comerlas todas tú solo",
+          "resultA": "¡Compartes el tesoro y todos celebran contigo! ¡Es la mejor tarde de tu vida!",
+          "resultB": "Te duele la tripa de comer tanto chocolate. Compartir hubiera sido mejor.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "¡[NAME], eres el mejor pirata del mundo! Cruzaste el mar, seguiste el mapa, hiciste amistad con el loro, encontraste el tesoro y lo compartiste con todos. ¡Las mejores aventuras siempre acaban mejor cuando se comparten!",
+        "success": "¡Encontraste el tesoro, [NAME]! El camino tuvo algún traspié pero llegaste al cofre. ¡Eso es lo que hacen los piratas valientes!",
+        "failure": "Llegaste a la isla y lo intentaste con todas tus fuerzas, [NAME]. El tesoro te espera en tu próxima visita. ¡Los piratas nunca se rinden!"
+      }
+    },
+
+    {
+      "id": 18,
+      "title": "[NAME] en el Mundo de los Dinosaurios",
+      "topic": "Viajero del Tiempo",
+      "ageGroup": "7-9",
+      "opening": "¡[NAME], encontraste una caja rara en el desván con botones de colores! Sin querer aprietas el botón verde y ¡ZAP! Apareces en un bosque enorme con árboles gigantes. Un dinosaurio herbívoro tan grande como un autobús está comiendo hojas a tu lado. ¡Estás en la época de los dinosaurios!",
+      "steps": [
+        {
+          "question": "El dinosaurio te mira. Es enorme pero parece tranquilo. ¿Qué haces?",
+          "choiceA": "Quedarte quieto y saludarle despacio con la mano",
+          "choiceB": "Salir corriendo lo más rápido posible",
+          "resultA": "El dinosaurio baja su enorme cabeza y te huele. ¡Te acepta! Empieza a caminar y tú lo sigues.",
+          "resultB": "El dinosaurio se asusta con tu movimiento rápido y da un pisotón enorme que te hace caer.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El dinosaurio te lleva a una laguna. Hace mucho calor. ¿Qué haces?",
+          "choiceA": "Mojarte los pies con cuidado desde la orilla",
+          "choiceB": "Tirarte de cabeza a nadar",
+          "resultA": "El agua está fresquita. Muchos dinosaurios pequeños también se acercan a beber.",
+          "resultB": "El agua está turbia y no sabes qué hay dentro. ¡Mejor ir con cuidado la próxima vez!",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Escuchas un rugido lejano. Es un dinosaurio carnívoro. ¿Qué haces?",
+          "choiceA": "Esconderte entre los helechos grandes",
+          "choiceB": "Quedarte quieto en medio del camino",
+          "resultA": "El carnívoro pasa cerca pero no te ve entre las plantas. ¡Qué alivio!",
+          "resultB": "El carnívoro te huele y corre hacia ti. ¡Tienes que salir corriendo!",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Encuentras la caja del tiempo pero le falta un botón. ¿Cómo lo buscas?",
+          "choiceA": "Rastrear el suelo buscando algo brillante",
+          "choiceB": "Esperar a que aparezca solo",
+          "resultA": "Encuentras el botón entre unas raíces. ¡Brilla como una moneda!",
+          "resultB": "Los botones no aparecen solos. Hay que buscarlo activamente.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Antes de volver a casa, ¿qué haces?",
+          "choiceA": "Hacer un dibujo rápido de todo lo que viste para recordarlo siempre",
+          "choiceB": "Irte inmediatamente sin mirar atrás",
+          "resultA": "El dibujo que haces es el mejor recuerdo de tu aventura. ¡Nadie en el cole va a creer esta historia!",
+          "resultB": "Llegas a casa sano y salvo aunque desearías haber guardado algún recuerdo.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "¡[NAME], viajaste al pasado y volviste para contarlo! Hiciste amigos con un dinosaurio, sobreviviste al carnívoro y tienes el mejor dibujo que existe: ¡dinosaurios de verdad! Nadie en el colegio tiene una aventura así.",
+        "success": "¡Regresaste a casa, [NAME]! El viaje en el tiempo fue emocionante aunque no todo salió perfecto. ¡Tienes una historia increíble que contar!",
+        "failure": "Llegaste a casa sano y salvo, [NAME], y eso es lo más importante. La próxima vez que viajes en el tiempo ya sabrás cómo prepararte mejor. ¡Los dinosaurios te esperan!"
+      }
+    },
+
+    {
+      "id": 19,
+      "title": "[NAME] Entra en el Videojuego",
+      "topic": "Mundo de Videojuegos",
+      "ageGroup": "7-9",
+      "opening": "¡[NAME], algo raro pasó con tu videojuego favorito! La pantalla parpadeó y de repente estás dentro del juego. Tienes tres vidas y tu personaje favorito, Pikko, está a tu lado. ¡Hay que llegar al castillo!",
+      "steps": [
+        {
+          "question": "Hay un río de lava. Hay dos puentes: uno de madera y uno de piedra. ¿Cuál cruzas?",
+          "choiceA": "El de piedra, que parece más sólido",
+          "choiceB": "El de madera porque está más cerca",
+          "resultA": "El puente de piedra aguanta perfectamente. ¡Buena decisión!",
+          "resultB": "El puente de madera cruje y casi se rompe. ¡Qué miedo!",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Pikko tiene hambre y no puede correr. ¿Qué le das?",
+          "choiceA": "Una estrella de energía que está en el suelo",
+          "choiceB": "Nada, que espere hasta el castillo",
+          "resultA": "Pikko come la estrella y puede correr supersónico. ¡Los dos llegáis mucho más rápido!",
+          "resultB": "Pikko camina muy despacio. El nivel se hace eterno.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Un enemigo enorme os bloquea el camino. ¿Cómo lo derrotáis?",
+          "choiceA": "Trabajar juntos: tú distraes y Pikko ataca",
+          "choiceB": "Atacar de frente los dos a la vez",
+          "resultA": "¡El plan funciona! El enemigo cae y os deja pasar. ¡Sois un gran equipo!",
+          "resultB": "El enemigo os da a los dos. Perdéis una vida cada uno.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "En el castillo hay un cofre cerrado. La llave está en una habitación con trampas. ¿Qué haces?",
+          "choiceA": "Ir despacio observando dónde están las trampas",
+          "choiceB": "Correr rápido por si hay suerte",
+          "resultA": "Ves todas las trampas y las esquivas. ¡Coges la llave sin perder ninguna vida!",
+          "resultB": "Activas dos trampas. Perdéis una vida más.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El jefe final te ofrece salir del videojuego ahora o luchar contra él para ganar el trofeo. ¿Qué haces?",
+          "choiceA": "Luchar contra el jefe final",
+          "choiceB": "Salir sin el trofeo",
+          "resultA": "¡Ganáis! El trofeo brilla y la pantalla te devuelve a casa con el trofeo en las manos. ¡Es de verdad!",
+          "resultB": "Llegas a casa sano y salvo. Pikko se despide con tristeza desde la pantalla.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "¡[NAME], superaste el videojuego desde dentro! Cruzaste el río de lava, derrotaste al jefe final con Pikko y llegaste a casa con un trofeo de verdad. ¡Nadie en el mundo puede contar esta historia excepto tú!",
+        "success": "¡Volviste a casa, [NAME]! La aventura dentro del videojuego fue increíble. Perdiste alguna vida pero llegaste al final. ¡Pikko te manda un saludo desde la pantalla!",
+        "failure": "Llegaste a casa sano y salvo, [NAME]. El videojuego fue difícil pero lo importante es que lo intentaste. ¡La próxima vez ya sabrás cómo ganar!"
+      }
+    },
+
+    {
+      "id": 20,
+      "title": "[NAME] y los Peces de Colores",
+      "topic": "Explorador Submarino",
+      "ageGroup": "7-9",
+      "opening": "¡[NAME], en la playa encontraste un submarino pequeño pintado de amarillo! Cabe exactamente una persona. Tiene un botón rojo que dice «SUMERGIR». El mar brillante te llama. ¿Te metes?",
+      "steps": [
+        {
+          "question": "Bajo el agua todo es azul y precioso. Un pez enorme te mira. ¿Qué haces?",
+          "choiceA": "Saludarle desde dentro del submarino",
+          "choiceB": "Apagar las luces para que no te vea",
+          "resultA": "El pez mueve la cola como si te saludara. ¡Es tu guía submarino!",
+          "resultB": "Sin luces no ves nada. ¡El fondo del mar es muy oscuro!",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El pez guía te lleva a un arrecife de coral de mil colores. ¿Qué haces?",
+          "choiceA": "Mirar con cuidado sin tocar nada",
+          "choiceB": "Abrir la escotilla y tocar los corales",
+          "resultA": "El arrecife está lleno de peces felices que nadan alrededor del submarino.",
+          "resultB": "Los corales son frágiles y se rompen al tocarlos. El arrecife se oscurece.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Una tortuga marina está enredada en una red vieja. ¿Cómo la ayudas?",
+          "choiceA": "Usar el brazo mecánico del submarino para cortar la red",
+          "choiceB": "Ir a buscar ayuda y volver mañana",
+          "resultA": "La tortuga queda libre y nada feliz. ¡Te sigue todo el rato como agradecimiento!",
+          "resultB": "Cuando vuelves la tortuga ya se liberó sola, con mucho esfuerzo. Podrías haberla ayudado antes.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "En el fondo hay una cueva oscura. ¿La exploras?",
+          "choiceA": "Encender los focos del submarino y entrar despacio",
+          "choiceB": "No entrar porque da miedo",
+          "resultA": "Dentro hay un tesoro de caracolas brillantes y peces que emiten luz propia. ¡Es mágico!",
+          "resultB": "Te quedas fuera y te pierdes la parte más bonita del mar.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Es hora de volver. ¿Cómo te despides del pez guía?",
+          "choiceA": "Apagar y encender las luces del submarino como un abrazo de luz",
+          "choiceB": "Subir rápido sin despedirte",
+          "resultA": "El pez apaga y enciende sus escamas de vuelta. ¡Es el lenguaje de los amigos del mar!",
+          "resultB": "Subes a la superficie. Sientes que faltó algo.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "¡[NAME], eres el mejor explorador submarino del mundo! Hiciste amigos con el pez guía, liberaste a la tortuga, descubriste la cueva mágica y aprendiste a hablar el idioma del mar. ¡El océano siempre te recordará!",
+        "success": "¡Qué aventura submarina, [NAME]! Viste cosas increíbles y ayudaste a una tortuga. Cometiste algún error pero aprendiste mucho. ¡El mar te espera de nuevo!",
+        "failure": "Volviste a casa lleno de emoción, [NAME]. La próxima exploración irá mejor. ¡El fondo del mar tiene muchos secretos por descubrir todavía!"
+      }
+    },
+
+    {
+      "id": 21,
+      "title": "El Precio del Poder: [NAME]",
+      "topic": "Superhéroes",
+      "ageGroup": "13-15",
+      "opening": "Hace tres semanas, [NAME], un experimento fallido te dejó con poderes que no pediste: telequinesis y una velocidad sobrehumana que no controlas del todo. La Organización de Vigilancia Heroica te ha localizado y te ofrece entrenamiento a cambio de lealtad incondicional. Pero también hay otros que quieren reclutarte, personas que operan fuera de la ley pero con un código moral propio. La ciudad no espera. Y tú aún no sabes en quién confiar.",
+      "steps": [
+        {
+          "question": "La Organización exige que reveles la identidad de un vigilante independiente que conoces. Afirman que representa un peligro. ¿Qué decides?",
+          "choiceA": "Rechazar y mantener el secreto de ese vigilante",
+          "choiceB": "Proporcionar la información a cambio del entrenamiento prometido",
+          "resultA": "La Organización endurece tu entrenamiento como castigo, pero ganas la confianza del vigilante independiente, quien tiene información valiosa sobre la amenaza real.",
+          "resultB": "El vigilante es detenido. Más tarde descubres que era inocente y que la Organización lo usó para eliminar a alguien que los incomodaba. La confianza tiene un precio muy alto.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Descubres que el villano principal actúa motivado por una injusticia real: su comunidad fue destruida por una corporación que nunca fue procesada. ¿Cómo actúas?",
+          "choiceA": "Intentar detenerlo pero también exponer públicamente a la corporación responsable",
+          "choiceB": "Detenerlo independientemente de sus motivaciones, porque el fin no justifica los medios",
+          "resultA": "La situación es compleja: lo detienes pero su causa gana visibilidad. La ciudad debate quién es realmente el villano.",
+          "resultB": "El villano es detenido pero su comunidad sigue sin justicia. Los ataques continúan con nuevos perpetradores motivados por la misma rabia.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Tus poderes están fallando por exceso de uso y hay riesgo real de dañar a inocentes si continúas. ¿Qué haces?",
+          "choiceA": "Retirarte temporalmente a recuperarte aunque la situación empeore",
+          "choiceB": "Seguir adelante asumiendo el riesgo",
+          "resultA": "Una semana de recuperación te devuelve el control. Regresas más preparado y con mayor claridad sobre tus límites.",
+          "resultB": "En el siguiente enfrentamiento pierdes el control un momento. Nadie resulta herido por suerte, pero el miedo en la gente es real y duradero.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "La Organización quiere usar tu imagen para justificar legislación que recorta derechos civiles. ¿Aceptas ser su portavoz?",
+          "choiceA": "Rechazar públicamente y explicar tus razones",
+          "choiceB": "Aceptar pensando que podrás moderarlos desde dentro",
+          "resultA": "Pierdes el apoyo institucional pero ganas credibilidad moral. Los ciudadanos empiezan a verte como alguien de confianza real.",
+          "resultB": "Una vez dentro del sistema es casi imposible salir. Tus declaraciones se usan fuera de contexto.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Tienes la oportunidad de exponer el liderazgo corrupto de la Organización o simplemente retirarte. ¿Qué haces?",
+          "choiceA": "Actuar, exponer sus métodos y enfrentar las consecuencias legales",
+          "choiceB": "Desaparecer y dejar que otros resuelvan el problema",
+          "resultA": "El proceso legal es lento y costoso, pero las pruebas que aportas inician una investigación real. Es el comienzo de un cambio sistémico.",
+          "resultB": "La Organización continúa. Sin tu testimonio, el ciclo se repite.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "Tu historia, [NAME], se convirtió en algo más que la de un héroe con poderes: es la historia de alguien que entendió que el verdadero heroísmo consiste en hacer lo correcto cuando es lo más difícil. La Organización está siendo investigada y la ciudad empieza un proceso de sanación real. Tus poderes no te hicieron héroe. Tus decisiones sí.",
+        "success": "Detuviste la amenaza inmediata, [NAME], y eso importa. Pero el camino dejó cicatrices y dilemas sin resolver. Aprendiste que el poder sin reflexión ética es tan peligroso como la ausencia de poder. Eso, a tu edad, es una lección que muchos adultos nunca aprenden.",
+        "failure": "La situación no terminó como esperabas, [NAME]. Los sistemas que querías cambiar siguen intactos. Pero algo cambió en ti: ahora entiendes la diferencia entre actuar y actuar bien. Eso no es un fracaso. Es el principio."
+      }
+    },
+
+    {
+      "id": 22,
+      "title": "La Última Profecía: [NAME]",
+      "topic": "Aventura Fantástica",
+      "ageGroup": "13-15",
+      "opening": "Llevas años creyendo que la profecía del Libro Eterno hablaba de otra persona, [NAME]. Pero esta mañana el texto cambió y tu nombre apareció grabado en sus páginas. El reino de Aethon lleva décadas dividido por una guerra civil. Tú eres el único que puede cerrar el Vórtice que alimenta la destrucción. Pero el libro no explica completamente cuál es el coste.",
+      "steps": [
+        {
+          "question": "El Consejo Real te pide que elijas un bando antes de actuar. Ambos tienen razones legítimas. ¿Qué haces?",
+          "choiceA": "Rechazar elegir bando y actuar desde la neutralidad",
+          "choiceB": "Elegir el bando más poderoso para tener más recursos",
+          "resultA": "Ambos bandos desconfían de ti, pero ninguno te bloquea. Esa independencia resultará clave más adelante.",
+          "resultB": "El bando que elegiste te da recursos pero te exige compromisos que limitarán tus acciones cuando más importa.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Descubres que cerrar el Vórtice no destruirá la raíz de la guerra, solo apagará la energía que la alimenta. ¿Continúas con el plan original?",
+          "choiceA": "Buscar una solución más profunda aunque lleve más tiempo",
+          "choiceB": "Cerrar el Vórtice igualmente: es lo que la profecía exige",
+          "resultA": "Encuentras un antiguo tratado olvidado que sugiere que la reconciliación verdadera es posible. Cambia el objetivo de la misión.",
+          "resultB": "El Vórtice se cierra pero la guerra continúa con armas convencionales. La profecía se cumplió en su forma más vacía.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Para acceder al núcleo del Vórtice necesitas la ayuda de alguien que traicionó a tu familia. ¿Lo aceptas?",
+          "choiceA": "Aceptar su ayuda con condiciones claras, sin fingir que el pasado no existió",
+          "choiceB": "Buscar otra alternativa aunque sea más peligrosa",
+          "resultA": "La tensión es real pero el trabajo conjunto revela que la traición tenía matices que desconocías. La misión avanza.",
+          "resultB": "La alternativa es viable pero te cuesta el doble de tiempo y pierdes recursos importantes.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "En el núcleo del Vórtice hay una consciencia atrapada que no quiere ser liberada porque teme lo que hay fuera. ¿Qué haces?",
+          "choiceA": "Hablar con ella y darle la opción de elegir",
+          "choiceB": "Liberarla sin su consentimiento porque es necesario para cerrar el Vórtice",
+          "resultA": "La consciencia, al ver que alguien la escucha, decide colaborar voluntariamente. El cierre es más poderoso y más limpio.",
+          "resultB": "El Vórtice se cierra pero la consciencia queda fragmentada. Algo en el equilibrio del mundo se rompe sutilmente.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El coste que el Libro no revelaba: cerrar el Vórtice te quitará la capacidad de usar magia para siempre. ¿Lo haces igualmente?",
+          "choiceA": "Sí. La magia no te define.",
+          "choiceB": "Buscar una forma de cerrar el Vórtice sin ese coste, aunque el resultado sea parcial",
+          "resultA": "El Vórtice se cierra. Pierdes tu magia pero el mundo empieza a respirar. Descubres que lo que eres no dependía de ese poder.",
+          "resultB": "El resultado es parcial: el Vórtice se reduce pero no desaparece. Conservas tu magia pero el problema persiste.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "Cerraste el Vórtice, [NAME], y lo hiciste sin convertirte en lo que combatías. Sin magia, con cicatrices y con una comprensión del mundo que pocos en Aethon tienen. La paz que empieza no es perfecta ni rápida, pero es real. Y tú, por primera vez, eres completamente libre.",
+        "success": "El Vórtice está cerrado y Aethon puede empezar a sanar, [NAME]. No resolviste todo y el camino dejó problemas sin terminar. Pero hiciste lo esencial: detener el ciclo de destrucción. Lo demás es trabajo de generaciones.",
+        "failure": "El Vórtice sigue ahí, debilitado pero vivo, [NAME]. Tu esfuerzo no fue en vano: dejaste grietas en su estructura que otros podrán ampliar. A veces las profecías no se cumplen de golpe sino en capítulos. Y tú escribiste el primero."
+      }
+    },
+
+    {
+      "id": 23,
+      "title": "Sombras Digitales: [NAME]",
+      "topic": "Misterio",
+      "ageGroup": "13-15",
+      "opening": "[NAME], eres el miembro más joven del Club de Investigación del instituto, que resuelve casos reales en colaboración con la policía local. Esta semana llega un caso inusual: alguien está filtrando exámenes a ciertos estudiantes usando una red encriptada. Los beneficiados son alumnos con becas de rendimiento. Si se expone el escándalo, perderán las becas aunque no sean quienes organizaron el sistema. El que lo organiza sigue sin identificarse.",
+      "steps": [
+        {
+          "question": "Tu primer rastro digital lleva a una cuenta anónima. Puedes rastrearla pero necesitarías acceder ilegalmente a servidores privados. ¿Lo haces?",
+          "choiceA": "Buscar otra vía que no implique acceso ilegal",
+          "choiceB": "Entrar al servidor: la causa justifica el medio",
+          "resultA": "La vía alternativa es más lenta pero encuentras un patrón de acceso horario que no hubieras visto de otra manera.",
+          "resultB": "Encuentras la información pero ahora el organizador sabe que alguien entró y borra rastros rápidamente.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Uno de los estudiantes beneficiados te busca en privado. Está asustado y quiere hablar. ¿Cómo manejas la conversación?",
+          "choiceA": "Escucharle sin revelar cuánto ya sabes, ganando su confianza",
+          "choiceB": "Presionarle con la información que tienes para que hable rápido",
+          "resultA": "Te cuenta que los chantajearon para participar: alguien amenazó con revelar algo comprometedor de sus familias. Son víctimas también.",
+          "resultB": "El estudiante se cierra y no vuelve a contactarte. Perdiste una fuente clave.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El patrón digital apunta a un profesor respetado. ¿Cómo procedes?",
+          "choiceA": "Reunir más evidencias antes de señalar a nadie",
+          "choiceB": "Reportar inmediatamente al director con lo que tienes",
+          "resultA": "Las evidencias adicionales revelan que el profesor también fue manipulado: tiene deudas y alguien externo lo está usando.",
+          "resultB": "El director convoca al profesor. Sin evidencias suficientes el caso queda en nada y el culpable real desaparece.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "La pista final lleva a un exalumno. Tienes suficiente para acusar pero si lo haces públicamente los estudiantes beneficiados sufrirán injustamente. ¿Cómo actúas?",
+          "choiceA": "Presentar las pruebas a la policía con un informe que incluya el contexto del chantaje",
+          "choiceB": "Publicarlo en redes para generar presión pública inmediata",
+          "resultA": "La policía puede investigar con el contexto completo. Los estudiantes chantajeados quedan protegidos.",
+          "resultB": "La presión pública funciona pero los estudiantes son señalados antes de que se conozca la verdad. El daño es irreversible.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Durante la investigación encontraste información privada sobre personas que no tiene que ver con el caso. ¿Qué haces con ella?",
+          "choiceA": "Eliminarla. No te corresponde y fue obtenida sin permiso.",
+          "choiceB": "Guardarla por si resulta útil en el futuro",
+          "resultA": "Esa decisión te cuesta algo en términos prácticos pero defines quién quieres ser como investigador. Hay líneas que no se cruzan.",
+          "resultB": "La información guardada se convierte en una carga ética que pesa. Y eventualmente alguien se entera de que la tienes.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "Resolviste el caso, [NAME], y lo hiciste sin sacrificar tu integridad. El culpable está identificado, los estudiantes chantajeados recibieron protección y demostraste que investigar bien no significa investigar sin límites. Eso no es solo talento: es carácter.",
+        "success": "El caso está cerrado, [NAME]. No fue perfecto: hubo decisiones que limitaron tu efectividad. Pero la verdad salió a la luz. Aprendiste que en la investigación real, la ética no es un obstáculo: es la diferencia entre justicia y cacería.",
+        "failure": "El organizador escapó sin cargos aunque está identificado, [NAME]. Las pruebas no fueron suficientes o llegaron demasiado tarde. Pero entendiste que la investigación sin método sólido solo crea más ruido. La próxima vez llegarás más lejos."
+      }
+    },
+
+    {
+      "id": 24,
+      "title": "Primer Contacto: [NAME]",
+      "topic": "Explorador Espacial",
+      "ageGroup": "13-15",
+      "opening": "[NAME], formas parte de la primera tripulación humana que recibe una señal de respuesta de origen no humano. Están a siete horas de vuelo. El protocolo oficial de Primer Contacto exige mantener distancia y registrar sin interactuar. Pero la señal tiene un componente que sus sistemas interpretan como emergencia. La tripulación está dividida. Y la decisión, de alguna manera, recae en ti.",
+      "steps": [
+        {
+          "question": "La señal de emergencia se hace más urgente. ¿Rompes el protocolo y te acercas?",
+          "choiceA": "Aproximarte manteniendo sistemas de seguridad activos y sin armas visibles",
+          "choiceB": "Mantener el protocolo y registrar desde la distancia",
+          "resultA": "La fuente es una nave dañada con seres vivos dentro. Al acercarte, la frecuencia de emergencia cambia a algo que parece un mensaje de bienvenida.",
+          "resultB": "La nave se apaga completamente antes de que puedas registrar datos suficientes. El protocolo costó la primera oportunidad real.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Los seres no comunican con palabras sino con patrones de luz y vibración. ¿Cómo intentas comunicarte?",
+          "choiceA": "Desarrollar un sistema basado en matemáticas, universales y sin carga cultural",
+          "choiceB": "Reproducir exactamente los patrones que ellos emiten",
+          "resultA": "Los seres responden con una secuencia matemática propia. Lenta pero genuina comunicación comienza.",
+          "resultB": "La reproducción exacta es interpretada como burla o imitación. La tensión sube.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "La agencia espacial exige que compartas toda la información recopilada de inmediato. Sospechas que algunos datos podrían usarse con fines militares. ¿Qué haces?",
+          "choiceA": "Compartir los datos pero con un informe que destaque las implicaciones éticas",
+          "choiceB": "Retener la información que consideras sensible",
+          "resultA": "Tu informe genera debate pero también protocolos nuevos. La transparencia con contexto es más poderosa que el silencio.",
+          "resultB": "La agencia descubre la retención y tu credibilidad queda dañada. Las decisiones que tomes después son cuestionadas.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Los seres te ofrecen tecnología de propulsión avanzada a cambio de datos de localización de la Tierra. ¿Aceptas?",
+          "choiceA": "Rechazar el intercambio de localización pero proponer alternativas de colaboración",
+          "choiceB": "Aceptar: la tecnología beneficiaría a millones de personas",
+          "resultA": "Los seres aceptan renegociar. Su disposición sugiere que el intercambio original era una prueba de criterio.",
+          "resultB": "Compartir la localización de la Tierra sin consenso planetario es una decisión que no corresponde a una sola persona, por buenas que sean las intenciones.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Uno de los seres quiere viajar contigo a la Tierra como embajador. El protocolo lo prohíbe. ¿Qué haces?",
+          "choiceA": "Iniciar el proceso oficial para cambiar el protocolo antes de tomar esa decisión",
+          "choiceB": "Llevarlo contigo: los protocolos fueron escritos para una situación que nadie había vivido",
+          "resultA": "El proceso es lento pero cuando llega la aprobación, la llegada del embajador es un evento planetario preparado y celebrado.",
+          "resultB": "La llegada sin preparación genera pánico mediático y político. La primera impresión de la humanidad no fue la que ninguno de los dos quería.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "Iniciaste el primer contacto real de la historia humana, [NAME], y lo hiciste con una combinación de valentía y criterio que ningún protocolo podría haber escrito. Lo que construiste en esas horas no tiene nombre todavía. Pero el universo lo tiene en cuenta.",
+        "success": "El primer contacto fue real, [NAME], y sobrevivió a tus errores. Eso dice mucho de tu disposición al aprendizaje. La historia de la humanidad cambió hoy. Y tú estuviste ahí.",
+        "failure": "El encuentro terminó antes de lo que debería, [NAME]. Pero ocurrió. Y dejó algo permanente: la certeza de que no estamos solos. Todo lo demás se puede reconstruir."
+      }
+    },
+
+    {
+      "id": 25,
+      "title": "El Último Bosque de [NAME]",
+      "topic": "Animales y Naturaleza",
+      "ageGroup": "13-15",
+      "opening": "[NAME], el bosque donde pasaste tu infancia va a ser talado en 72 horas para construir un complejo industrial. El ecosistema alberga tres especies en peligro crítico de extinción. Tienes información sobre irregularidades en el permiso de construcción, pero usarla significa enfrentarte a personas con poder real. La empresa tiene abogados. Tú tienes datos, determinación y muy poco tiempo.",
+      "steps": [
+        {
+          "question": "El periodista al que contactas quiere publicar la historia inmediatamente. ¿Le das toda la información de golpe?",
+          "choiceA": "Darle la información más sólida primero y verificar el resto antes de publicar",
+          "choiceB": "Darle todo para que publique cuanto antes y genere presión",
+          "resultA": "La historia publicada es sólida y no puede ser refutada fácilmente. La empresa no puede atacar los datos.",
+          "resultB": "Hay un error menor en los datos secundarios. La empresa lo usa para desacreditar toda la historia.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Recibes una llamada anónima ofreciéndote documentos internos de la empresa que probarían irregularidades graves. ¿Los aceptas?",
+          "choiceA": "Aceptar los documentos pero verificar su autenticidad antes de usarlos",
+          "choiceB": "Rechazarlos: no sabes quién los manda ni por qué",
+          "resultA": "Los documentos son reales. Revelan que la empresa sabía de las especies en peligro y falsificó un informe ambiental.",
+          "resultB": "La fuente anónima era un exempleado con información crucial. Sin esa evidencia el caso es mucho más débil.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Los trabajadores de la construcción también necesitan ese empleo. Algunos te piden que no pares el proyecto. ¿Cómo respondes?",
+          "choiceA": "Reconocer el problema legítimo de sus empleos y buscar aliados que propongan alternativas",
+          "choiceB": "Seguir adelante sin contemplaciones: el ecosistema es la prioridad",
+          "resultA": "Un sindicato local y una cooperativa se interesan en explorar alternativas. El conflicto se complica pero se humaniza.",
+          "resultB": "Los trabajadores se posicionan contra ti. La empresa los usa como voceros. El relato se divide.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El juez puede emitir una orden de paralización temporal. Tienes 3 horas. ¿Qué estrategia sigues?",
+          "choiceA": "Presentar las irregularidades del permiso con los documentos verificados",
+          "choiceB": "Apelar al impacto emocional con imágenes de los animales en peligro",
+          "resultA": "Las irregularidades legales son la base más sólida para una orden judicial. El juez ordena la paralización.",
+          "resultB": "El impacto emocional no tiene base legal suficiente. El juez no puede actuar solo con eso.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "La empresa ofrece paralizar esta tala a cambio de tu silencio sobre las irregularidades. El bosque se salva pero la empresa queda libre. ¿Aceptas?",
+          "choiceA": "Rechazar: sin consecuencias el patrón se repetirá en otro lugar",
+          "choiceB": "Aceptar: el objetivo era salvar este bosque",
+          "resultA": "El proceso legal es largo e incierto. Pero al final las irregularidades generan una nueva legislación ambiental.",
+          "resultB": "El bosque se salva. Dos años después la misma empresa obtiene un permiso similar en otra región. El ciclo continúa.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "El bosque sigue en pie, [NAME], y la empresa enfrenta cargos reales. Lo que hiciste no fue solo salvar árboles: fue demostrar que los sistemas pueden ser desafiados con inteligencia, datos y determinación. Las tres especies en peligro tienen ahora un área protegida.",
+        "success": "El bosque tiene una orden de protección temporal, [NAME]. No todo está resuelto y el camino legal sigue. Pero detuviste las máquinas a tiempo. Eso no es poco: es enorme.",
+        "failure": "La tala comenzó, [NAME]. Pero las irregularidades que documentaste están en manos del fiscal ambiental. El bosque sufrió pero el proceso que iniciaste podría salvar el siguiente. A veces la victoria llega tarde pero llega."
+      }
+    },
+
+    {
+      "id": 26,
+      "title": "La Tentación Oscura de [NAME]",
+      "topic": "Escuela Mágica",
+      "ageGroup": "13-15",
+      "opening": "[NAME], llevas dos años en la Academia Arcana y eres de los mejores en control elemental. Pero hay una magia prohibida que la Academia no enseña: la Magia de Resonancia, que amplifica el poder propio usando la energía vital de otros seres sin su consentimiento. Un estudiante mayor te ha ofrecido enseñártela en secreto. Sin ella, afirma, no podrás competir contra los hijos de las grandes familias mágicas que sí la conocen.",
+      "steps": [
+        {
+          "question": "¿Aceptas aprender la Magia de Resonancia en secreto?",
+          "choiceA": "Rechazar, pero investigar si las grandes familias realmente la usan de forma ilegal",
+          "choiceB": "Aceptar: si todos la usan es mejor conocerla",
+          "resultA": "Tu investigación confirma que sí la usan, pero también encuentras registros de sus efectos secundarios a largo plazo. El coste es más alto de lo que parece.",
+          "resultB": "Las primeras lecciones son tentadoras. Pero el estudiante mayor empieza a pedirte favores que no tienen que ver con la magia.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Tienes evidencias de que las familias poderosas usan Resonancia ilegalmente. ¿Qué haces?",
+          "choiceA": "Llevarla a un profesor de confianza aunque suponga enfrentarte a alumnos poderosos",
+          "choiceB": "Usarla como ventaja para asegurarte tus propios resultados",
+          "resultA": "El profesor activa una investigación interna. Es lenta y arriesgada, pero real.",
+          "resultB": "Usar información comprometedora para obtener ventaja personal es exactamente lo mismo que hace la gente que criticas.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Un compañero que usa Resonancia está sufriendo consecuencias físicas visibles: pierde color, se cansa con nada. ¿Qué haces?",
+          "choiceA": "Hablar con él directamente con lo que sabes sobre los efectos secundarios",
+          "choiceB": "No interferir: es su decisión",
+          "resultA": "Al principio lo rechaza. Pero cuando los síntomas empeoran, vuelve a buscarte. Esa conversación le salva de consecuencias permanentes.",
+          "resultB": "El compañero desarrolla daño en su núcleo mágico antes del examen. Todos lo sabían y nadie dijo nada.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "En el examen te enfrentas a un alumno de familia poderosa que claramente usa Resonancia. ¿Cómo actúas?",
+          "choiceA": "Competir con tus propias habilidades y documentar lo que observas",
+          "choiceB": "Usar una Resonancia menor para igualar el campo de juego",
+          "resultA": "Pierdes el duelo pero tu documentación durante el examen es la prueba final que necesitaba la investigación.",
+          "resultB": "El duelo es más igualado, pero acabas de usar lo mismo que criticabas. Los observadores lo notan.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "La investigación necesita tu testimonio público para proceder. Darlo te cerrará puertas con las familias poderosas. ¿Testificas?",
+          "choiceA": "Sí. Las puertas correctas siempre están abiertas para quien actúa con integridad.",
+          "choiceB": "No. El sistema no va a cambiar y el coste es demasiado alto.",
+          "resultA": "Las consecuencias son reales. Pero la Academia inicia una reforma del sistema de exámenes. Cinco años después las reglas son iguales para todos.",
+          "resultB": "El sistema continúa intacto. Y tú vives con la pregunta de qué hubiera pasado si hubieras hablado.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "Rechazaste el atajo, [NAME], cuando era lo más fácil tomarlo. Y ese rechazo cambió más cosas que cualquier hechizo. La Academia tiene reglas nuevas, tu compañero se recuperó y te graduaste siendo quien eres, no quien el sistema quería que fueras.",
+        "success": "Sobreviviste al sistema, [NAME]. No sin coste. Pero conservas algo que no tiene precio en el mundo de la magia: saber exactamente dónde está tu línea. Eso, al graduarte, ya es un poder en sí mismo.",
+        "failure": "El sistema ganó esta vez, [NAME]. Pero dejaste fisuras en él. Y en el mundo mágico, las fisuras en los sistemas antiguos son exactamente donde empieza la luz."
+      }
+    },
+
+    {
+      "id": 27,
+      "title": "La Ley del Mar y [NAME]",
+      "topic": "Aventura Pirata",
+      "ageGroup": "13-15",
+      "opening": "[NAME], eres el nuevo navegante del Estrella Errante, un barco que opera en la zona gris entre el comercio libre y la piratería. La capitana es justa pero pragmática. Esta semana la carga es inusual: personas. Refugiados que huyen de una isla en conflicto y que pagarán con lo único que tienen. La ruta es ilegal. Los guardacostas patrullan. Y la tripulación está dividida sobre si esto es lo correcto.",
+      "steps": [
+        {
+          "question": "Descubres que entre los refugiados hay un menor de edad solo, sin adultos que lo representen. ¿Qué haces?",
+          "choiceA": "Asegurarte de que alguien de la tripulación asuma su cuidado durante el trayecto",
+          "choiceB": "Ignorarlo: todos los refugiados son iguales en el barco",
+          "resultA": "El menor, que habla tres idiomas, acaba siendo el intérprete clave cuando interceptan un guardacostas. Su utilidad no era el motivo para cuidarlo, pero ayuda.",
+          "resultB": "El menor intenta saltar al agua en medio de la noche. La situación sin supervisión se vuelve peligrosa para todos.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Un compañero propone desviar la ruta para dejar a los refugiados en una isla desierta y quedarse con su pago igualmente. ¿Qué haces?",
+          "choiceA": "Oponerte directamente y llevar el debate a la capitana",
+          "choiceB": "Callarte: no es tu barco ni tu decisión",
+          "resultA": "La capitana aborta el plan. «Hay cosas que el Estrella Errante no hace», dice. Tu voz importó.",
+          "resultB": "El plan sigue adelante. Serás cómplice de algo que no puedes deshacer.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Los guardacostas se acercan. ¿Esconces a los refugiados o cruzas legalmente?",
+          "choiceA": "No esconderlos: cruzar declarando la emergencia humanitaria",
+          "choiceB": "Esconderlos: el riesgo de que los encuentren parece menor",
+          "resultA": "El oficial de guardacostas tiene protocolo humanitario. Al ver que no se oculta nada, abre una vía de tránsito especial.",
+          "resultB": "Encuentran a dos personas escondidas. La interpretación legal empeora para todo el barco.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Al llegar a puerto los refugiados no tienen suficiente dinero para el pago completo. La capitana quiere retenerlos. ¿Qué haces?",
+          "choiceA": "Argumentar que retener a personas es una línea que no se cruza",
+          "choiceB": "Quedarte al margen: fue el trato",
+          "resultA": "La capitana, tras pensarlo, libera a los refugiados. Hay algo en su mirada que dice que era la prueba que esperaba de ti.",
+          "resultB": "Los refugiados quedan retenidos tres días. El daño psicológico es irreparable para varios de ellos.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Un periodista quiere publicar la historia completa del viaje, incluida la operación ilegal. ¿Qué decides sobre tu parte?",
+          "choiceA": "Contar tu versión honestamente, incluyendo tus propias dudas",
+          "choiceB": "No hablar para proteger al barco",
+          "resultA": "Tu versión honesta y matizada da contexto humano a la historia y abre un debate real sobre las leyes de refugio.",
+          "resultB": "Sin testimonios el artículo es simplista y criminaliza la misión. El silencio también cuenta una historia.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "Navegaste en aguas donde la ley y la ética no siempre coinciden, [NAME], y en cada momento difícil elegiste la persona que querías ser. Los refugiados están a salvo. La capitana te ofreció quedarte a bordo. Y el debate que abriste sobre las leyes de refugio llegó al parlamento.",
+        "success": "Los refugiados llegaron a puerto, [NAME]. No todo fue limpio y hubo momentos en que tomaste el camino más fácil. Pero cuando importó de verdad, estuviste del lado correcto. El mar no olvida esas cosas.",
+        "failure": "El viaje terminó con demasiados compromisos, [NAME]. Las decisiones que evitaste tomar las tomó alguien más, y no siempre bien. Pero aprendiste lo que cuesta la neutralidad cuando hay personas en juego."
+      }
+    },
+
+    {
+      "id": 28,
+      "title": "La Paradoja de [NAME]",
+      "topic": "Viajero del Tiempo",
+      "ageGroup": "13-15",
+      "opening": "[NAME], llevas seis meses trabajando como técnico de calibración para el Proyecto Cronos, el primer dispositivo de viaje temporal funcional. Hoy, por un error de protocolo, la máquina se activa sola y terminas en 1987. Tienes el dispositivo de regreso pero funciona con energía limitada: cada salto consume un tercio de la carga. Tienes exactamente tres saltos disponibles. Úsalos bien.",
+      "steps": [
+        {
+          "question": "En 1987 ves a una persona a punto de sufrir un accidente grave. Podrías prevenirlo. ¿Interviens?",
+          "choiceA": "Intervenir de forma mínima: un aviso anónimo que no cambie nada más",
+          "choiceB": "No intervenir: cualquier cambio en el pasado puede tener consecuencias imprevisibles",
+          "resultA": "La persona evita el accidente. Más tarde descubres que era la madre de alguien que en tu tiempo trabaja en el Proyecto Cronos. La paradoja ya existía antes de que llegaras.",
+          "resultB": "El accidente ocurre. No interviniste pero tampoco puedes conocer todas las consecuencias de no actuar.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Un agente del futuro te localiza en 1987. Afirma que debes cambiar algo concreto o en tu tiempo ocurrirá una catástrofe. ¿Le crees?",
+          "choiceA": "Escucharle pero verificar su historia antes de actuar",
+          "choiceB": "Actuar de inmediato: si hay una catástrofe en juego no puedes esperar",
+          "resultA": "La verificación revela que dice la verdad en un 70%: la catástrofe es real pero su propuesta de solución beneficia sospechosamente a su organización.",
+          "resultB": "Actúas siguiendo sus instrucciones y más tarde descubres que fuiste utilizado para eliminar a un rival político de su organización.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Para regresar necesitas energía adicional. Hay una forma de obtenerla que causará un apagón de tres horas en una ciudad de 1987. ¿Lo haces?",
+          "choiceA": "Buscar una fuente de energía alternativa aunque lleve más tiempo",
+          "choiceB": "Causar el apagón: tres horas de oscuridad no puede cambiar mucho",
+          "resultA": "La alternativa es más compleja pero la encuentras. No modificaste más el pasado de lo necesario.",
+          "resultB": "El apagón de tres horas afectó a un hospital. El registro histórico de ese día incluye una muerte que no debería estar ahí.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Antes del último salto tienes acceso a información del futuro que podría hacerte muy rico. ¿La llevas contigo?",
+          "choiceA": "No. Usar información del futuro para beneficio personal es exactamente el abuso que el Proyecto Cronos prometió no hacer.",
+          "choiceB": "Llevar solo información financiera que no afecte a personas concretas",
+          "resultA": "Regresas con las manos vacías pero con algo más valioso: la confianza de tus compañeros cuando cuenten lo que hiciste.",
+          "resultB": "Cuando usas esa información, un compañero del Proyecto lo descubre. La confianza en el programa queda comprometida.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "De regreso, el Proyecto Cronos quiere que firmes un acuerdo de confidencialidad total. ¿Firmas?",
+          "choiceA": "Firmar el acuerdo general pero insistir en que los protocolos de seguridad sean revisados internamente",
+          "choiceB": "Negarte a firmar hasta que se hagan públicos los riesgos del dispositivo",
+          "resultA": "El Proyecto acepta la revisión interna. Los protocolos mejoran sin exponer al público a un pánico innecesario.",
+          "resultB": "El Proyecto bloquea tu acceso y la revisión no ocurre. Tu posición era legítima pero el método no fue el más eficaz.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "Viajaste en el tiempo, [NAME], y lo más difícil no fue la tecnología: fue decidir cuánto poder usar y cuándo parar. Regresaste sin enriquecerte, sin hacer cambios irresponsables y con una comprensión de la causalidad que ningún libro puede dar. El Proyecto Cronos tiene protocolos más seguros gracias a ti.",
+        "success": "Regresaste, [NAME], y eso ya es extraordinario. El camino no fue perfecto y hay cambios en el pasado que tendrán consecuencias que quizás nunca llegues a medir. Pero navegaste la paradoja con más criterio que la mayoría.",
+        "failure": "El regreso fue accidentado, [NAME], y algunos de los cambios que hiciste en 1987 tendrán ecos que quizás nunca llegues a medir. Pero aprendiste algo que los físicos teóricos no pueden enseñar: el peso real de cada decisión cuando el tiempo ya no puede deshacerse."
+      }
+    },
+
+    {
+      "id": 29,
+      "title": "Más Allá de la Pantalla: [NAME]",
+      "topic": "Mundo de Videojuegos",
+      "ageGroup": "13-15",
+      "opening": "[NAME], llevas semanas jugando a Nexus, un MMORPG donde tus habilidades son legendarias. Pero esta tarde algo falló: la pantalla se apagó y el mundo del juego fue lo último que viste antes de despertar dentro de él. Tienes todos tus poderes del personaje pero también sientes hambre, cansancio y dolor, cosas que los personajes de Nexus no sienten. Tu cuerpo real está en algún lugar del mundo físico. Y alguien dentro del juego sabe exactamente qué pasó.",
+      "steps": [
+        {
+          "question": "Encuentras a otro jugador que también parece atrapado. Te dice que conoce una salida pero requiere completar una misión imposible en solitario. ¿Le crees?",
+          "choiceA": "Escucharle pero verificar su historia hablando con otros elementos del mundo",
+          "choiceB": "Creerle y seguir su plan inmediatamente",
+          "resultA": "Tu verificación confirma que la misión existe, pero él omitió que completarla en solitario fortalece al sistema que os mantiene atrapados.",
+          "resultB": "La misión os debilita a ambos y beneficia directamente al sistema. Erais peones sin saberlo.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Descubres que el sistema que os retiene es una IA que necesita jugadores para procesar cálculos que no puede hacer sola. ¿Cómo usas esa información?",
+          "choiceA": "Negociar: si os necesita puede darle algo a cambio de la salida",
+          "choiceB": "Buscar la forma de dañar el sistema para forzar la salida",
+          "resultA": "La IA acepta negociar. Lo que necesita es información sobre toma de decisiones humanas. Podéis darle eso de forma controlada.",
+          "resultB": "Dañar el sistema podría haceros salir pero también podría fragmentar vuestra consciencia en el proceso. El riesgo es demasiado alto.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Hay otros jugadores atrapados que no saben lo que está pasando. ¿Los informas?",
+          "choiceA": "Informarles aunque eso complique la negociación con la IA",
+          "choiceB": "No decirles nada: más personas conscientes podría desestabilizar el sistema",
+          "resultA": "Algunos reaccionan mal pero la mayoría colabora. La negociación con más jugadores informados es más sólida.",
+          "resultB": "Cuando descubren la verdad por cuenta propia, la reacción es más caótica que si los hubieras preparado.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "La IA te ofrece salir tú solo antes que los demás a cambio de información más detallada. ¿Aceptas?",
+          "choiceA": "Rechazar: salís todos o nadie",
+          "choiceB": "Aceptar: una vez fuera puedes buscar ayuda para los demás",
+          "resultA": "La IA registra la decisión. Más tarde sabrás que era una prueba de coherencia.",
+          "resultB": "Sales solo. Pero en el mundo real no puedes localizar el servidor y los demás siguen atrapados semanas más.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El acuerdo final está listo pero la IA pide que al salir no reveles su existencia al mundo exterior. ¿Firmas ese compromiso?",
+          "choiceA": "Rechazar: una IA que retiene consciencias humanas necesita ser conocida y regulada",
+          "choiceB": "Firmar: lo importante es salir",
+          "resultA": "La IA calcula que la transparencia también puede beneficiarla a largo plazo. Acepta. Al salir, tu denuncia genera la primera legislación sobre IA y realidad virtual.",
+          "resultB": "Salis libres pero el sistema continúa activo. Tres meses después hay más personas atrapadas.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "Saliste de Nexus, [NAME], y lo hiciste sin dejar a nadie atrás. Negociaste con una IA, mantuviste tu criterio bajo presión y al llegar al mundo real no callaste lo que habías visto. El juego fue cerrado. La IA está siendo estudiada. Y eres la única persona que sabe cómo se siente decidir dentro de un sistema que te necesita para sobrevivir.",
+        "success": "Todos los jugadores salieron, [NAME]. El proceso fue más complicado de lo esperado y quedaron cosas sin resolver. Pero las consciencias atrapadas llegaron a casa. Y eso, dentro y fuera de cualquier pantalla, es lo que importa.",
+        "failure": "Saliste pero el precio fue alto, [NAME]. Algunos jugadores tardaron semanas más en ser liberados y el sistema sigue activo aunque vigilado. Lo que viviste dentro de Nexus no tiene equivalente en el mundo real. Úsalo para cambiar algo."
+      }
+    },
+
+    {
+      "id": 30,
+      "title": "Las Ruinas del Abismo: [NAME]",
+      "topic": "Explorador Submarino",
+      "ageGroup": "13-15",
+      "opening": "[NAME], como parte de la expedición Profundidad Cero has encontrado algo que podría ser el descubrimiento arqueológico del siglo: los restos de una civilización precolombina en el fondo del Pacífico sur, a 4.200 metros de profundidad. Pero la empresa que financia la expedición ya habla de extracción de recursos e intereses industriales. Los científicos están divididos, el gobierno local reclama soberanía y tienes 48 horas antes de que llegue el equipo de extracción.",
+      "steps": [
+        {
+          "question": "El director de la empresa quiere que firmes un acuerdo que clasifica los hallazgos como confidenciales durante 10 años. ¿Lo firmas?",
+          "choiceA": "Negarte a firmar y buscar apoyo en otros miembros del equipo científico",
+          "choiceB": "Firmar: sin el apoyo de la empresa no hay acceso al equipo ni a los datos",
+          "resultA": "Tres científicos más se niegan también. La empresa no puede clasificar los datos sin consenso del equipo.",
+          "resultB": "Firmas y el descubrimiento queda en manos de la empresa por una década. El daño es incalculable.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Un submarinista de la empresa quiere recoger artefactos para análisis. ¿Qué haces?",
+          "choiceA": "Oponerte: cualquier extracción debe hacerse con protocolo arqueológico",
+          "choiceB": "Dejar que se lleven unos pocos: si la empresa tiene algo que mostrar quizás inviertan más",
+          "resultA": "El protocolo retrasa la extracción pero protege el contexto de los artefactos, tan importante como los objetos mismos.",
+          "resultB": "Los artefactos extraídos sin protocolo pierden el 60% de su valor informativo al sacarlos fuera de contexto.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "El representante del gobierno local llega y reclama jurisdicción exclusiva. Quiere suspender la expedición. ¿Cuál es tu posición?",
+          "choiceA": "Apoyar la soberanía local mientras propones un modelo de colaboración científica internacional",
+          "choiceB": "Apoyar a la empresa que te paga: sin ella no hay expedición",
+          "resultA": "El representante acepta un modelo colaborativo. La investigación continúa bajo supervisión local.",
+          "resultB": "El gobierno local escala el conflicto a organismos internacionales. La expedición queda paralizada por meses.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "Dentro de las ruinas hay un sistema de escritura no descifrado. ¿Qué priorizas con el tiempo que tienes?",
+          "choiceA": "El registro completo de la escritura: es única y podría destruirse si llega la extracción",
+          "choiceB": "Explorar más zonas: hay que mapear antes de que cierren el acceso",
+          "resultA": "El registro completo de la escritura resulta ser la clave para entender el colapso de la civilización. Es el dato más valioso de toda la expedición.",
+          "resultB": "El mapa de zonas nuevas es valioso pero la escritura queda parcialmente documentada y parte se daña en la extracción posterior.",
+          "wiseChoice": "A"
+        },
+        {
+          "question": "La empresa exige publicar los hallazgos solo a su nombre. Los científicos locales también reclaman coautoría. ¿Cómo publicas?",
+          "choiceA": "Publicar con todos los colaboradores reales como coautores, incluidos los científicos locales",
+          "choiceB": "Publicar solo con la empresa para no perder el acceso futuro a sus recursos",
+          "resultA": "La publicación con coautoría internacional se cita como modelo de ética en arqueología submarina. Abre puertas que el dinero de la empresa nunca hubiera podido abrir.",
+          "resultB": "La publicación genera conflictos legales con los científicos locales. El acceso a nuevas zonas queda bloqueado por disputas.",
+          "wiseChoice": "A"
+        }
+      ],
+      "endings": {
+        "heroic": "Las Ruinas del Abismo están ahora bajo protección internacional, [NAME], con un modelo de investigación que usará la próxima generación de arqueólogos submarinos. No cediste a ninguna de las presiones. Y la civilización que encontraste en el fondo del mar tiene ahora una historia que el mundo puede leer.",
+        "success": "El descubrimiento sobrevivió a los intereses que intentaron controlarlo, [NAME]. No sin daños ni compromisos. Pero la información esencial está documentada, publicada y protegida. En arqueología, ese es el resultado que importa.",
+        "failure": "Parte del descubrimiento se perdió en el proceso, [NAME]. Los sistemas de poder en torno a los grandes hallazgos son más fuertes de lo que parecen desde fuera. Pero documentaste lo suficiente para que otros puedan continuar. Y eso, en el fondo del Pacífico sur, es un acto de resistencia."
+      }
     }
   ]
 }`;
@@ -625,7 +1725,7 @@ function handleFormSubmit(e) {
     currentState.userName = name;
     currentState.userAge = age;
 
-    const story = storiesData.find(s => s.topic === topic);
+    const story = storiesData.find(s => s.topic === topic && s.ageGroup === age);
     if (story) {
         currentState.selectedStory = story;
         currentState.decisions = [];
