@@ -1741,7 +1741,7 @@ function showStory() {
     switchScreen('storyScreen');
     const story = currentState.selectedStory;
 
-    storyTitle.textContent = story.title;
+    storyTitle.textContent = story.title.replace(/\[NAME\]/g, currentState.userName);
     storyTopic.textContent = `📚 ${story.topic}`;
 
     const opening = story.opening.replace(/\[NAME\]/g, currentState.userName);
@@ -1773,9 +1773,12 @@ function updateChoices() {
         illu.style.display = 'none';
     }
 
-    questionText.textContent = step.question;
-    choiceA.textContent = step.choiceA;
-    choiceB.textContent = step.choiceB;
+    const name = currentState.userName;
+    questionText.textContent = step.question.replace(/\[NAME\]/g, name);
+    choiceA.textContent = step.choiceA.replace(/\[NAME\]/g, name);
+    choiceB.textContent = step.choiceB.replace(/\[NAME\]/g, name);
+    choiceA.disabled = false;
+    choiceB.disabled = false;
     choicesContainer.style.display = 'block';
 }
 
